@@ -13,30 +13,27 @@ type Side = "cucina" | "bar";
 function Item({ item }: { item: MenuItem }) {
   const details = item.desc || item.ingredients.join(", ");
   return (
-    <article className="group flex gap-4 rounded-[1.4rem] border border-white/8 bg-white/[0.03] p-3 transition hover:border-brand-gold/40 hover:bg-white/[0.06] sm:p-4">
+    <article className="group flex gap-4 border-b border-white/10 py-5">
       {item.image && (
-        <div className="relative aspect-square w-20 shrink-0 overflow-hidden rounded-xl bg-brand-ink sm:w-24">
-          <Image
-            src={item.image}
-            alt={item.name}
-            fill
-            sizes="96px"
-            className="object-cover transition duration-500 group-hover:scale-105"
-          />
+        <div className="relative aspect-square w-16 shrink-0 overflow-hidden rounded-full bg-brand-ink ring-2 ring-transparent transition group-hover:ring-brand-gold sm:w-20">
+          <Image src={item.image} alt={item.name} fill sizes="80px" className="object-cover transition duration-500 group-hover:scale-110" />
         </div>
       )}
       <div className="min-w-0 flex-1">
-        <div className="flex items-baseline justify-between gap-3">
-          <h4 className="font-display text-lg font-bold leading-tight text-white">{item.name}</h4>
+        <div className="flex items-baseline gap-3">
+          <h4 className="font-display text-xl font-black leading-tight text-white transition group-hover:text-brand-gold">
+            {item.name}
+          </h4>
+          <span aria-hidden="true" className="mb-1 flex-1 border-b-2 border-dotted border-white/20" />
           {item.price !== null && (
-            <span className="shrink-0 font-label text-base font-bold tabular-nums text-brand-gold">
+            <span className="shrink-0 font-display text-xl font-black tabular-nums text-brand-gold">
               {formatPrice(item.price)}
             </span>
           )}
         </div>
-        {details && <p className="mt-1.5 text-sm leading-relaxed text-white/60">{details}</p>}
+        {details && <p className="mt-1.5 max-w-[60ch] text-[15px] leading-relaxed text-white/55">{details}</p>}
         {item.allergens.length > 0 && (
-          <p className="mt-2 font-label text-[11px] uppercase tracking-[0.18em] text-white/35">
+          <p className="mt-1.5 font-label text-[11px] uppercase tracking-[0.18em] text-white/30">
             Allergeni: {item.allergens.join(", ")}
           </p>
         )}
@@ -64,8 +61,8 @@ export default function MenuSection() {
       <div className="section-shell relative">
         <div className="grid gap-10 lg:grid-cols-[1fr_auto] lg:items-end">
           <Reveal>
-            <span className="eyebrow-dark">menu / cucina &amp; bancone</span>
-            <h2 className="mt-6 text-[clamp(2.8rem,7vw,5.6rem)] leading-[0.92]">
+            <p className="font-label text-xs font-bold uppercase tracking-[0.34em] text-brand-gold">Menu · cucina &amp; bancone</p>
+            <h2 className="mt-5 text-[clamp(3rem,8vw,7.5rem)] leading-[0.86]">
               Il menu
               <br />
               <span className="text-brand-gold">dell&apos;Oca.</span>
@@ -130,15 +127,15 @@ export default function MenuSection() {
           >
             {active.sections.map((section, index) => (
               <div key={section.title ?? index}>
-                <div className="flex items-baseline gap-4 border-b border-white/10 pb-3">
-                  <h3 className="text-[clamp(1.6rem,3vw,2.4rem)] leading-none text-white">
+                <div className="flex items-baseline gap-4 border-b-2 border-brand-gold pb-3">
+                  <h3 className="text-[clamp(2rem,4vw,3.4rem)] leading-none text-white">
                     {section.title ?? active.name}
                   </h3>
                   {section.title && (
                     <span className="font-label text-xs uppercase tracking-[0.28em] text-white/40">{active.name}</span>
                   )}
                 </div>
-                <div className="mt-5 grid gap-3 md:grid-cols-2">
+                <div className="mt-2 grid gap-x-12 md:grid-cols-2">
                   {section.items.map((item) => (
                     <Item key={`${item.name}-${item.price}`} item={item} />
                   ))}

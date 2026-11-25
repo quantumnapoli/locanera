@@ -19,13 +19,14 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://locanera-irish-pub.netlify.app"),
   title: "L'Oca Nera Irish Pub | Un pò di Irlanda nel cuore di Napoli",
   description:
     "L'Oca Nera Irish Pub al Vomero, Napoli: Guinness alla spina, panini gourmet, carne irlandese e dolci fatti in casa. Via Gian Lorenzo Bernini 17.",
   openGraph: {
     title: "L'Oca Nera Irish Pub",
     description: "Un pò di Irlanda nel cuore di Napoli. Non un semplice pub, ma una Public House.",
-    images: ["/foto/sala.webp"],
+    images: ["/hero/ocanera-exploded.webp"],
     locale: "it_IT",
     type: "website"
   }

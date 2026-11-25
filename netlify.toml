@@ -10,7 +10,7 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
 
 [[headers]]
-  for = "/images/*"
+  for = "/explode/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 

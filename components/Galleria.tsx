@@ -4,17 +4,16 @@ import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import { useCallback, useEffect, useState } from "react";
 
-import Reveal from "@/components/Reveal";
 import { SITE } from "@/lib/site";
 
 const FOTO = [
-  { src: "/foto/sala.webp", alt: "La sala sotto le volte", wide: true },
+  { src: "/foto/sala.webp", alt: "La sala sotto le volte" },
   { src: "/foto/spina.webp", alt: "Spillatura al bancone" },
   { src: "/foto/burger-harp.webp", alt: "Burger e pinta di Harp" },
   { src: "/foto/oca-statua.webp", alt: "L'oca nera che veglia sul pub" },
   { src: "/foto/tagliata.webp", alt: "Tagliata di manzo irlandese" },
   { src: "/foto/guinness.webp", alt: "La spina Guinness con l'arpa" },
-  { src: "/foto/amici.webp", alt: "Amici a tavola", wide: true },
+  { src: "/foto/amici.webp", alt: "Amici a tavola" },
   { src: "/foto/burger-gourmet.webp", alt: "Panino gourmet" },
   { src: "/foto/cartello.webp", alt: "La vita è troppo breve per bere cattiva birra" },
   { src: "/foto/tagliere.webp", alt: "Tagliere di salumi, formaggi e frutta" },
@@ -25,6 +24,8 @@ const FOTO = [
   { src: "/foto/fritti.webp", alt: "Fritturine e patate" },
   { src: "/foto/insegna.webp", alt: "L'insegna de L'Oca Nera" }
 ];
+
+const RIGHE = [FOTO.slice(0, 8), FOTO.slice(8)];
 
 export default function Galleria() {
   const [open, setOpen] = useState<number | null>(null);
@@ -50,53 +51,52 @@ export default function Galleria() {
   }, [open, step]);
 
   return (
-    <section id="galleria" className="relative scroll-mt-[var(--site-header-offset)] bg-brand-cream py-24 text-brand-black md:py-32">
-      <div className="section-shell">
-        <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
-          <Reveal>
-            <span className="eyebrow">galleria / le nostre specialità</span>
-            <h2 className="mt-6 text-[clamp(2.8rem,7vw,5.6rem)] leading-[0.92]">
-              Vieni a vedere
-              <br />
-              com&apos;è da noi.
-            </h2>
-          </Reveal>
-          <Reveal delay={0.08}>
-            <a
-              href={SITE.socials.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 rounded-full bg-brand-black px-7 py-4 font-label text-sm font-bold uppercase tracking-[0.22em] text-brand-gold transition hover:-translate-y-0.5"
-            >
-              @locanerapub
-              <span aria-hidden="true">↗</span>
-            </a>
-          </Reveal>
-        </div>
+    <section id="galleria" className="relative overflow-hidden bg-brand-black py-24 text-white md:py-32">
+      <div className="section-shell flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+        <h2 className="font-display text-[clamp(3rem,8vw,7.5rem)] font-black leading-[0.86]">
+          Dal nostro
+          <br />
+          <span className="text-brand-gold">Instagram.</span>
+        </h2>
+        <a
+          href={SITE.socials.instagram}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group inline-flex items-center gap-4 self-start font-display text-2xl font-black md:self-end"
+        >
+          @locanerapub
+          <span className="grid h-12 w-12 place-items-center rounded-full bg-brand-gold text-brand-black transition group-hover:rotate-45">
+            ↗
+          </span>
+        </a>
+      </div>
 
-        <div className="mt-12 grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
-          {FOTO.map((foto, index) => (
-            <Reveal key={foto.src} delay={(index % 4) * 0.05} className={foto.wide ? "col-span-2" : ""}>
-              <button
-                type="button"
-                onClick={() => setOpen(index)}
-                className={`group relative block w-full overflow-hidden rounded-[1.2rem] bg-brand-black ${
-                  foto.wide ? "aspect-[2/1]" : "aspect-square"
-                }`}
-                aria-label={`Apri la foto: ${foto.alt}`}
-              >
-                <Image
-                  src={foto.src}
-                  alt={foto.alt}
-                  fill
-                  sizes={foto.wide ? "(min-width: 768px) 50vw, 100vw" : "(min-width: 768px) 25vw, 50vw"}
-                  className="object-cover transition duration-700 group-hover:scale-[1.04]"
-                />
-                <span className="absolute inset-0 bg-brand-black/0 transition group-hover:bg-brand-black/15" />
-              </button>
-            </Reveal>
-          ))}
-        </div>
+      <div className="mt-14 grid gap-4 md:gap-6">
+        {RIGHE.map((riga, r) => (
+          <div key={r} className="group/row flex w-max gap-4 md:gap-6" >
+            <div
+              className={`flex gap-4 md:gap-6 ${r ? "animate-[marquee_60s_linear_infinite_reverse]" : "animate-[marquee_55s_linear_infinite]"} group-hover/row:[animation-play-state:paused] motion-reduce:animate-none`}
+            >
+              {[...riga, ...riga].map((foto, i) => {
+                const index = FOTO.indexOf(foto);
+                return (
+                  <button
+                    key={`${foto.src}-${i}`}
+                    type="button"
+                    onClick={() => setOpen(index)}
+                    aria-label={`Apri la foto: ${foto.alt}`}
+                    tabIndex={i >= riga.length ? -1 : 0}
+                    className={`group relative aspect-square w-[58vw] shrink-0 overflow-hidden rounded-sm sm:w-[34vw] md:w-[22vw] lg:w-[17vw] ${
+                      i % 2 ? "rotate-[1.5deg]" : "-rotate-[1.5deg]"
+                    } transition duration-500 hover:z-10 hover:rotate-0 hover:scale-[1.06]`}
+                  >
+                    <Image src={foto.src} alt={foto.alt} fill sizes="(min-width: 1024px) 17vw, 58vw" className="object-cover" />
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        ))}
       </div>
 
       <AnimatePresence>
@@ -113,14 +113,14 @@ export default function Galleria() {
           >
             <motion.div
               key={open}
-              initial={{ scale: 0.96, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
+              initial={{ scale: 0.94, opacity: 0, rotate: -2 }}
+              animate={{ scale: 1, opacity: 1, rotate: 0 }}
               className="relative h-[min(82vh,82vw)] w-[min(82vh,92vw)]"
               onClick={(e) => e.stopPropagation()}
             >
               <Image src={FOTO[open].src} alt={FOTO[open].alt} fill sizes="92vw" className="object-contain" />
             </motion.div>
-            <p className="absolute bottom-6 left-1/2 -translate-x-1/2 font-label text-sm uppercase tracking-[0.24em] text-white/70">
+            <p className="absolute bottom-6 left-1/2 -translate-x-1/2 text-center font-label text-sm uppercase tracking-[0.24em] text-white/70">
               {FOTO[open].alt}
             </p>
             {[
@@ -135,7 +135,7 @@ export default function Galleria() {
                   e.stopPropagation();
                   step(b.dir);
                 }}
-                className={`absolute top-1/2 ${b.pos} grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full border border-white/20 text-white transition hover:border-brand-gold hover:text-brand-gold`}
+                className={`absolute top-1/2 ${b.pos} grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full bg-brand-gold text-brand-black transition hover:scale-110`}
               >
                 {b.icon}
               </button>
@@ -144,7 +144,7 @@ export default function Galleria() {
               type="button"
               aria-label="Chiudi"
               onClick={() => setOpen(null)}
-              className="absolute right-4 top-4 grid h-11 w-11 place-items-center rounded-full border border-white/20 text-white transition hover:border-brand-gold hover:text-brand-gold"
+              className="absolute right-4 top-4 grid h-11 w-11 place-items-center rounded-full border border-white/30 text-white transition hover:border-brand-gold hover:text-brand-gold"
             >
               ✕
             </button>

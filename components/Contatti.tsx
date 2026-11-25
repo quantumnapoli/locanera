@@ -1,117 +1,88 @@
+import RotatingBadge from "@/components/RotatingBadge";
 import Reveal from "@/components/Reveal";
 import { PAGAMENTI, SERVIZI, SITE } from "@/lib/site";
 
 export default function Contatti() {
   return (
-    <section id="contatti" className="relative scroll-mt-[var(--site-header-offset)] overflow-hidden bg-brand-black py-24 text-white md:py-32">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_85%_10%,rgba(254,218,20,0.12),transparent_40%)]" />
-      <div className="section-shell relative">
+    <section id="contatti" className="relative overflow-hidden bg-brand-gold text-brand-black">
+      <div className="section-shell relative py-24 md:py-32">
+        <p className="font-label text-xs font-bold uppercase tracking-[0.34em]">Contatti · dove siamo</p>
+
         <Reveal>
-          <span className="eyebrow-dark">contatti / dove siamo</span>
-          <h2 className="mt-6 text-[clamp(2.8rem,7vw,5.6rem)] leading-[0.92]">
-            Ci vediamo
+          <a
+            href={SITE.mapsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group mt-6 block font-display text-[clamp(2.6rem,8.4vw,8.5rem)] font-black leading-[0.88] tracking-[-0.02em]"
+          >
+            Via Gian Lorenzo
             <br />
-            <span className="text-brand-gold">al Vomero.</span>
-          </h2>
+            Bernini, 17
+            <span className="ml-4 inline-block align-middle text-[0.4em] transition group-hover:translate-x-2 group-hover:-translate-y-2">
+              ↗
+            </span>
+          </a>
+          <p className="mt-4 font-label text-sm font-bold uppercase tracking-[0.3em]">
+            {SITE.address.cap} {SITE.address.city} · {SITE.address.zone}
+          </p>
         </Reveal>
 
-        <div className="mt-14 grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
-          <Reveal className="grid gap-6">
-            <div className="rounded-[2rem] border border-white/10 bg-white/[0.04] p-7 md:p-9">
-              <dl className="grid gap-7">
-                <div>
-                  <dt className="font-label text-[11px] font-semibold uppercase tracking-[0.3em] text-brand-gold/80">Indirizzo</dt>
-                  <dd className="mt-2 font-display text-2xl font-bold leading-snug">
-                    {SITE.address.street}
-                    <br />
-                    {SITE.address.cap} {SITE.address.city}
-                  </dd>
-                  <a
-                    href={SITE.mapsUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-3 inline-flex font-label text-sm font-semibold uppercase tracking-[0.2em] text-white/60 underline-offset-4 transition hover:text-brand-gold hover:underline"
-                  >
-                    Indicazioni stradali ↗
-                  </a>
-                </div>
-                <div className="grid gap-7 sm:grid-cols-2">
-                  <div>
-                    <dt className="font-label text-[11px] font-semibold uppercase tracking-[0.3em] text-brand-gold/80">Telefono</dt>
-                    <dd className="mt-2">
-                      <a href={SITE.phoneHref} className="font-display text-xl font-bold transition hover:text-brand-gold">
-                        {SITE.phone}
-                      </a>
-                    </dd>
-                  </div>
-                  <div>
-                    <dt className="font-label text-[11px] font-semibold uppercase tracking-[0.3em] text-brand-gold/80">Email</dt>
-                    <dd className="mt-2 break-all">
-                      <a href={`mailto:${SITE.email}`} className="text-lg font-medium transition hover:text-brand-gold">
-                        {SITE.email}
-                      </a>
-                    </dd>
-                  </div>
-                </div>
-                <div>
-                  <dt className="font-label text-[11px] font-semibold uppercase tracking-[0.3em] text-brand-gold/80">Orari</dt>
-                  <dd className="mt-2 text-white/75">
-                    {SITE.orari ? (
-                      <ul className="grid gap-1">
-                        {SITE.orari.map((o) => (
-                          <li key={o.giorno} className="flex justify-between gap-4">
-                            <span>{o.giorno}</span>
-                            <span className="tabular-nums">{o.ore}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    ) : (
-                      <>Chiamaci per orari e prenotazioni.</>
-                    )}
-                  </dd>
-                </div>
-              </dl>
+        <div className="mt-16 grid gap-12 border-t-2 border-brand-black pt-10 md:grid-cols-3">
+          <div>
+            <p className="font-label text-xs font-bold uppercase tracking-[0.3em] text-brand-black/60">Chiama e prenota</p>
+            <a href={SITE.phoneHref} className="mt-2 block font-display text-3xl font-black hover:underline">
+              {SITE.phone}
+            </a>
+            <a href={`mailto:${SITE.email}`} className="mt-2 block break-all text-lg font-medium hover:underline">
+              {SITE.email}
+            </a>
+          </div>
+          <div>
+            <p className="font-label text-xs font-bold uppercase tracking-[0.3em] text-brand-black/60">Orari</p>
+            {SITE.orari ? (
+              <ul className="mt-2 grid gap-1 text-lg">
+                {SITE.orari.map((o) => (
+                  <li key={o.giorno} className="flex justify-between gap-4">
+                    <span>{o.giorno}</span>
+                    <span className="tabular-nums">{o.ore}</span>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p className="mt-2 text-lg">Chiamaci per orari e prenotazioni.</p>
+            )}
+            <p className="mt-4 font-display text-xl font-black leading-tight">{SITE.parcheggio}</p>
+          </div>
+          <div className="flex items-start justify-between gap-6">
+            <div>
+              <p className="font-label text-xs font-bold uppercase tracking-[0.3em] text-brand-black/60">Seguici</p>
+              <a href={SITE.socials.instagram} target="_blank" rel="noopener noreferrer" className="mt-2 block font-display text-2xl font-black hover:underline">
+                Instagram ↗
+              </a>
+              <a href={SITE.socials.facebook} target="_blank" rel="noopener noreferrer" className="mt-1 block font-display text-2xl font-black hover:underline">
+                Facebook ↗
+              </a>
             </div>
-
-            <div className="rounded-[2rem] bg-brand-gold p-7 text-brand-black md:p-9">
-              <p className="font-label text-[11px] font-bold uppercase tracking-[0.3em]">Parcheggio</p>
-              <p className="mt-3 font-display text-2xl font-black leading-tight md:text-3xl">{SITE.parcheggio}</p>
-            </div>
-          </Reveal>
-
-          <Reveal delay={0.1} className="min-h-[24rem] overflow-hidden rounded-[2rem] border border-white/10">
-            <iframe
-              title="Mappa: L'Oca Nera Irish Pub"
-              src={SITE.mapsEmbed}
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              className="h-full min-h-[24rem] w-full grayscale invert-[0.92] hue-rotate-180"
-            />
-          </Reveal>
+            <RotatingBadge className="w-28 shrink-0 md:w-32" />
+          </div>
         </div>
 
-        <div className="mt-6 grid gap-6 md:grid-cols-2">
-          <Reveal className="rounded-[2rem] border border-white/10 bg-white/[0.04] p-7 md:p-9">
-            <p className="font-label text-[11px] font-semibold uppercase tracking-[0.3em] text-brand-gold/80">I nostri servizi</p>
-            <ul className="mt-5 flex flex-wrap gap-2">
-              {SERVIZI.map((s) => (
-                <li key={s} className="rounded-full border border-white/12 px-4 py-2 text-sm text-white/80">
-                  {s}
-                </li>
-              ))}
-            </ul>
-          </Reveal>
-          <Reveal delay={0.06} className="rounded-[2rem] border border-white/10 bg-white/[0.04] p-7 md:p-9">
-            <p className="font-label text-[11px] font-semibold uppercase tracking-[0.3em] text-brand-gold/80">Metodi di pagamento</p>
-            <ul className="mt-5 flex flex-wrap gap-2">
-              {PAGAMENTI.map((p) => (
-                <li key={p} className="rounded-full border border-white/12 px-4 py-2 text-sm text-white/80">
-                  {p}
-                </li>
-              ))}
-            </ul>
-          </Reveal>
+        <div className="mt-12 grid gap-4 border-t-2 border-brand-black pt-8 font-label text-sm font-semibold uppercase tracking-[0.18em] md:grid-cols-[auto_1fr] md:gap-x-10">
+          <span className="text-brand-black/60">Servizi</span>
+          <span>{SERVIZI.join(" · ")}</span>
+          <span className="text-brand-black/60">Pagamenti</span>
+          <span>{PAGAMENTI.join(" · ")}</span>
         </div>
+      </div>
+
+      <div className="relative h-[60vh] min-h-[22rem] border-t-2 border-brand-black">
+        <iframe
+          title="Mappa: L'Oca Nera Irish Pub"
+          src={SITE.mapsEmbed}
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          className="h-full w-full grayscale contrast-125"
+        />
       </div>
     </section>
   );

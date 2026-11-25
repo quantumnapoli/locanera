@@ -198,3 +198,10 @@ body {
     animation: none;
   }
 }
+
+/* usato dal timbro rotante (animate-[spin_18s_linear_infinite]) */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

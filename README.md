@@ -29,13 +29,23 @@ Serve una versione vettoriale originale dal locale.
 
 ## Sezioni
 
-1. Hero con badge che galleggia e segue il mouse (era il panino Kuop)
-2. Pub, Public House! + tre card (pub, carne irlandese, dolci)
+1. **Hero + esplosione** (`components/HeroExplode.tsx`): il panino Oca Nera scontornato davanti alla
+   scritta gigante; allo scroll si scompone strato per strato (145 fotogrammi in `public/explode/`),
+   con le etichette degli ingredienti. Inclinazione 3D col mouse.
+2. Manifesto "Pub, Public House!" con le parole che si accendono allo scroll
 3. Scaffale 3D con 8 panini gourmet (`lib/panini.ts`)
-4. Ticker, storia del vessillo (4 capitoli dal sito attuale)
-5. Menu completo, cucina e bancone (`lib/menu.json`, esportato da dishcovery.menu)
-6. Sezione bancone (birre, whisky, gin)
-7. Galleria con lightbox, Contatti + mappa, servizi, pagamenti, footer
+4. Storia in 4 capitoli a scorrimento orizzontale
+5. Menu completo stile lavagna (`lib/menu.json`, esportato da dishcovery.menu)
+6. Bancone, galleria Instagram a nastri, contatti + mappa
+
+## Come è fatta l'animazione del panino
+
+1. Foto reale dell'Oca Nera → GPT Image 2.6 (Higgsfield): scatto da studio del panino intero, poi
+   lo stesso panino "esploso" su giallo #FEDA14.
+2. Kling 3.0 Pro (Higgsfield) con primo e ultimo fotogramma → video di 6 s.
+3. Higgsfield video background remover → stesso video su nero.
+4. Difference matte (giallo vs nero) → fotogrammi WebP con canale alpha.
+   Script: vedi la cronologia del progetto; per rifarla servono i due MP4.
 
 ## Dati
 
