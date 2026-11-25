@@ -1,0 +1,29 @@
+# dipendenze
+/node_modules
+
+# build
+/.next
+/out
+*.tsbuildinfo
+next-env.d.ts
+
+# deploy
+.netlify
+.vercel
+
+# ambiente
+.env
+.env.local
+.env*.local
+
+# file di lavoro, sempre rigenerabili
+/.tmp
+
+# sistema
+.DS_Store
+*.pem
+npm-debug.log*
+yarn-error.log*
+
+# sorgenti pesanti non necessarie alla build
+*.zip

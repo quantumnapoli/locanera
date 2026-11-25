@@ -1,0 +1,3383 @@
+[
+ {
+  "name": "Stuzzicherie",
+  "drink": false,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Pommy",
+      "desc": "Quattro bruschette al pomodoro fresco e basilico.",
+      "ingredients": [],
+      "price": 7.5,
+      "image": "/menu/image_1684790422.webp",
+      "allergens": [
+       "Glutine"
+      ]
+     },
+     {
+      "name": "Old Bread",
+      "desc": "Bruschette salsiccia e frierielli, peperoni e provola, pomodoro e basilico.",
+      "ingredients": [],
+      "price": 9.0,
+      "image": "/menu/image_1684790472.webp",
+      "allergens": [
+       "Glutine"
+      ]
+     },
+     {
+      "name": "Tortillas con Salsa Mex",
+      "desc": "Chips di mais con salsa di peperoni e jalapeno.",
+      "ingredients": [],
+      "price": 4.5,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Taglieri",
+  "drink": false,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Dublin",
+      "desc": "",
+      "ingredients": [
+       "selezione mista di formaggi di fossa"
+      ],
+      "price": 14.0,
+      "image": null,
+      "allergens": [
+       "Latticini"
+      ]
+     },
+     {
+      "name": "St. Patrick",
+      "desc": "",
+      "ingredients": [
+       "salumi misti"
+      ],
+      "price": 14.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Belfast",
+      "desc": "",
+      "ingredients": [
+       "selezione mista di salumi e formaggi"
+      ],
+      "price": 16.0,
+      "image": null,
+      "allergens": [
+       "Latticini"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fritturine",
+  "drink": false,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Fritto Misto L'Ocanera",
+      "desc": "",
+      "ingredients": [
+       "crocchè di patate",
+       "arancini",
+       "calzoncini ripieni",
+       "mozzarella in carrozza",
+       "quadroni panati ai quattro formaggi"
+      ],
+      "price": 10.5,
+      "image": "/menu/image_1685044610.webp",
+      "allergens": [
+       "Anidride solforosa o solfiti",
+       "Sedano",
+       "Glutine",
+       "Crostacei",
+       "Pesce",
+       "Uova e derivati",
+       "Soia",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Irish Fried",
+      "desc": "",
+      "ingredients": [
+       "chicken double stick",
+       "anelli di cipolla",
+       "straccetti di pollo",
+       "mozzarella allo speck",
+       "patate fry & deep"
+      ],
+      "price": 14.0,
+      "image": "/menu/image_1685045417_533.webp",
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Bites of Pork",
+      "desc": "",
+      "ingredients": [
+       "bocconcini di pulled pork avvolti in fiocchi di mais",
+       "patatine fry & deep",
+       "salsa barbeque"
+      ],
+      "price": 10.0,
+      "image": "/menu/image_1685045544.webp",
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Soia",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Chicken Double Stick con Patate (4 pezzi)",
+      "desc": "",
+      "ingredients": [
+       "filetto di pollo marinato e sorretto da doppio bastoncino di bambù",
+       "patatine fry & deep"
+      ],
+      "price": 9.0,
+      "image": "/menu/image_1685045628.webp",
+      "allergens": [
+       "Uova e derivati"
+      ]
+     },
+     {
+      "name": "Mozzarelline Fritte (8 pezzi)",
+      "desc": "",
+      "ingredients": [],
+      "price": 5.5,
+      "image": "/menu/image_1685045929.webp",
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Soia",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Buffalo Wings con Patate (6 pezzi)",
+      "desc": "",
+      "ingredients": [
+       "alette di pollo piccanti",
+       "patate fry & deep"
+      ],
+      "price": 8.5,
+      "image": "/menu/image_1684790884.webp",
+      "allergens": [
+       "Senape",
+       "Uova e derivati",
+       "Soia",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Pepite di Pollo con Patate (6 pezzi)",
+      "desc": "",
+      "ingredients": [
+       "pepite di pollo croccanti",
+       "patate fry & deep"
+      ],
+      "price": 8.0,
+      "image": "/menu/image_1684790915.webp",
+      "allergens": [
+       "Sedano",
+       "Glutine",
+       "Uova e derivati",
+       "Soia"
+      ]
+     },
+     {
+      "name": "Anelli di Cipolla",
+      "desc": "Anelli di cipolla in panatura croccante.",
+      "ingredients": [],
+      "price": 5.0,
+      "image": "/menu/image_1684790955.webp",
+      "allergens": [
+       "Glutine",
+       "Latticini"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Patate Fritte",
+  "drink": false,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Patatine Chips Fritte",
+      "desc": "Chips di patate fresche.",
+      "ingredients": [],
+      "price": 5.0,
+      "image": "/menu/image_1684790528.webp",
+      "allergens": []
+     },
+     {
+      "name": "Patatine con Salsiccia Sbriciolata",
+      "desc": "",
+      "ingredients": [
+       "patate fry & deep",
+       "salsiccia di maiale a punta di coltello"
+      ],
+      "price": 6.0,
+      "image": "/menu/image_1684791021.webp",
+      "allergens": [
+       "Anidride solforosa o solfiti"
+      ]
+     },
+     {
+      "name": "Patatine e Wurstel",
+      "desc": "",
+      "ingredients": [
+       "patate fry & deep",
+       "wurstel di suino"
+      ],
+      "price": 6.0,
+      "image": "/menu/image_1684791071.webp",
+      "allergens": []
+     },
+     {
+      "name": "Patatine Porchetta",
+      "desc": "",
+      "ingredients": [
+       "patatine fritte a scelta: fry & deep o patate chips fresche",
+       "porchetta di Ariccia"
+      ],
+      "price": 7.5,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Patatine Porchetta e Provola",
+      "desc": "",
+      "ingredients": [
+       "patatine fritte a scelta: fry & deep o patate chips fresche",
+       "porchetta di Ariccia",
+       "provola di Agerola"
+      ],
+      "price": 8.0,
+      "image": null,
+      "allergens": [
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Patatine Bacon & Cheese",
+      "desc": "",
+      "ingredients": [
+       "patatine fritte a scelta: fry & deep o patate chips fresche",
+       "Bacon",
+       "formaggio"
+      ],
+      "price": 8.0,
+      "image": "/menu/image_1684804186.webp",
+      "allergens": [
+       "Latte e derivati"
+      ]
+     },
+     {
+      "name": "Patatine Pulled e Cheddar",
+      "desc": "",
+      "ingredients": [
+       "patatine fritte a scelta: fry & deep o patate chips fresche",
+       "pulled pork",
+       "cheddar cheese"
+      ],
+      "price": 9.0,
+      "image": null,
+      "allergens": [
+       "Latte e derivati"
+      ]
+     },
+     {
+      "name": "Patatine Wurstel & Cheese",
+      "desc": "",
+      "ingredients": [
+       "patatine fritte a scelta: fry & deep o patate chips fresche",
+       "Wurstel",
+       "formaggio"
+      ],
+      "price": 7.0,
+      "image": null,
+      "allergens": [
+       "Latte e derivati"
+      ]
+     },
+     {
+      "name": "Patatine dell'Oca",
+      "desc": "",
+      "ingredients": [
+       "patate fry & deep",
+       "cheddar cheese",
+       "crispy bacon",
+       "uovo strapazzato"
+      ],
+      "price": 9.0,
+      "image": "/menu/image_1684804376.webp",
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Soia",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Patatine, Salsiccia Sbriciolata e Provola di Agerola",
+      "desc": "",
+      "ingredients": [
+       "patate fry & deep",
+       "salsiccia di maiale a punta di coltello",
+       "provola di Agerola"
+      ],
+      "price": 7.0,
+      "image": "/menu/image_1684804439.webp",
+      "allergens": [
+       "Anidride solforosa o solfiti",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Patatine con Formaggio",
+      "desc": "",
+      "ingredients": [
+       "patate fry & deep",
+       "formaggio cheddar o sottiletta"
+      ],
+      "price": 6.0,
+      "image": "/menu/image_1684804487.webp",
+      "allergens": [
+       "Latte e derivati"
+      ]
+     },
+     {
+      "name": "Patatine e Bacon",
+      "desc": "",
+      "ingredients": [
+       "patate fry & deep",
+       "crispy bacon"
+      ],
+      "price": 7.0,
+      "image": "/menu/image_1684804525.webp",
+      "allergens": [
+       "Glutine"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "New",
+  "drink": false,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Smashed Goose",
+      "desc": "potato bun, · doppio hamburger, · doppio cheddar, · doppio bacon",
+      "ingredients": [
+       "Potato bun",
+       "Doppio Hamburger",
+       "Doppio Cheddar",
+       "Doppio Bacon",
+       "Salsa special smash"
+      ],
+      "price": 13.0,
+      "image": "/menu/image_1776503548.webp",
+      "allergens": [
+       "Glutine",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Panini Basic Selection",
+  "drink": false,
+  "sections": [
+   {
+    "title": "Manzo",
+    "items": [
+     {
+      "name": "Napoleon",
+      "desc": "",
+      "ingredients": [
+       "panino classico",
+       "hamburger di podolico",
+       "Pomodoro",
+       "provola di Agerola",
+       "lattuga iceberg"
+      ],
+      "price": 8.5,
+      "image": "/menu/image_1685471026.webp",
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Old Major",
+      "desc": "",
+      "ingredients": [
+       "panino classico",
+       "hamburger di podolico",
+       "parmigiana di melanzane"
+      ],
+      "price": 9.0,
+      "image": "/menu/image_1694793659.webp",
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Gondrano",
+      "desc": "",
+      "ingredients": [
+       "panino classico",
+       "hamburger di podolico",
+       "provola di Agerola",
+       "melanzane a funghetto"
+      ],
+      "price": 8.5,
+      "image": "/menu/image_1694206369.webp",
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Molly",
+      "desc": "",
+      "ingredients": [
+       "panino classico",
+       "hamburger di podolico",
+       "provola di Agerola",
+       "mix di funghi trifolati"
+      ],
+      "price": 8.5,
+      "image": "/menu/image_1694802502.webp",
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Berta",
+      "desc": "",
+      "ingredients": [
+       "panino classico",
+       "hamburger di podolico",
+       "provola di Agerola",
+       "patatine fry & deep"
+      ],
+      "price": 8.5,
+      "image": "/menu/image_1694802430.webp",
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Benjamin",
+      "desc": "",
+      "ingredients": [
+       "panino classico",
+       "hamburger di podolico",
+       "provola di Agerola",
+       "friarielli"
+      ],
+      "price": 8.5,
+      "image": "/menu/image_1694770813.webp",
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Maialino Nero",
+    "items": [
+     {
+      "name": "Mosè",
+      "desc": "",
+      "ingredients": [
+       "panino classico",
+       "salsiccia di maialino nero",
+       "provola di Agerola",
+       "melanzane a funghetto"
+      ],
+      "price": 8.5,
+      "image": "/menu/image_1685471175.webp",
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Clarinetto",
+      "desc": "",
+      "ingredients": [
+       "panino classico",
+       "salsiccia di maialino nero",
+       "provola di Agerola",
+       "patatine fry & deep"
+      ],
+      "price": 8.5,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Mr. Jones",
+      "desc": "",
+      "ingredients": [
+       "panino classico",
+       "salsiccia di maialino nero",
+       "provola di Agerola",
+       "friarielli"
+      ],
+      "price": 8.5,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Minimus",
+      "desc": "",
+      "ingredients": [
+       "panino classico",
+       "salsiccia di maialino nero",
+       "provola di Agerola",
+       "peperoni saltati"
+      ],
+      "price": 8.5,
+      "image": "/menu/image_1694802724.webp",
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Wurstel",
+    "items": [
+     {
+      "name": "Ryyan",
+      "desc": "",
+      "ingredients": [
+       "panino classico",
+       "bockwurstel classico tedesco",
+       "patatine fry & deep"
+      ],
+      "price": 8.0,
+      "image": "/menu/image_1694867812.webp",
+      "allergens": [
+       "Senape",
+       "Sedano",
+       "Glutine",
+       "Frutta a guscio"
+      ]
+     },
+     {
+      "name": "Wynne",
+      "desc": "",
+      "ingredients": [
+       "Crauti",
+       "panino classico",
+       "bockwurstel classico tedesco"
+      ],
+      "price": 8.0,
+      "image": "/menu/image_1694867777.webp",
+      "allergens": [
+       "Senape",
+       "Sedano",
+       "Glutine",
+       "Frutta a guscio"
+      ]
+     },
+     {
+      "name": "Senan",
+      "desc": "",
+      "ingredients": [
+       "panino classico",
+       "bockwurstel classico tedesco",
+       "provola di Agerola",
+       "friarielli"
+      ],
+      "price": 8.5,
+      "image": null,
+      "allergens": [
+       "Senape",
+       "Sedano",
+       "Glutine",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Porchetta Di Ariccia",
+    "items": [
+     {
+      "name": "Morrigan",
+      "desc": "",
+      "ingredients": [
+       "panino classico",
+       "porchetta di Ariccia",
+       "provola di Agerola",
+       "friarielli"
+      ],
+      "price": 9.0,
+      "image": "/menu/image_1694867940.webp",
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Lugh",
+      "desc": "",
+      "ingredients": [
+       "panino classico",
+       "porchetta di Ariccia",
+       "provola di Agerola",
+       "patatine fry & deep"
+      ],
+      "price": 9.0,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Macha",
+      "desc": "",
+      "ingredients": [
+       "panino classico",
+       "porchetta di Ariccia",
+       "provola di Agerola",
+       "melanzane a funghetto"
+      ],
+      "price": 9.0,
+      "image": "/menu/image_1685471143.webp",
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Dagda",
+      "desc": "",
+      "ingredients": [
+       "panino classico",
+       "porchetta di Ariccia",
+       "provola di Agerola",
+       "mix funghi trifolati"
+      ],
+      "price": 9.0,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Pollo",
+    "items": [
+     {
+      "name": "Rosaleen",
+      "desc": "",
+      "ingredients": [
+       "Prosciutto Cotto",
+       "panino classico",
+       "cotoletta di pollo",
+       "sottiletta"
+      ],
+      "price": 8.5,
+      "image": "/menu/image_1694802831.webp",
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Latte e derivati",
+       "Frutta a guscio"
+      ]
+     },
+     {
+      "name": "Tailtù",
+      "desc": "",
+      "ingredients": [
+       "Panino classico",
+       "Cotoletta di pollo",
+       "Provola d’Agerola",
+       "Patate Fry & Dip o melanzane a funghetto"
+      ],
+      "price": 8.5,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Hamburger di Pollo con contorno a scelta",
+      "desc": "",
+      "ingredients": [],
+      "price": 10.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Bistecca Di Pollo Con Contorno",
+      "desc": "",
+      "ingredients": [],
+      "price": 12.0,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Panini Gourmet",
+  "drink": false,
+  "sections": [
+   {
+    "title": "Manzo",
+    "items": [
+     {
+      "name": "Wagyu",
+      "desc": "",
+      "ingredients": [
+       "Pomodoro",
+       "bun artigianale",
+       "hamburger di tipo kobe",
+       "lattuga iceberg",
+       "patate fry & deep"
+      ],
+      "price": 13.5,
+      "image": "/menu/image_1684953232.webp",
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Sesamo"
+      ]
+     },
+     {
+      "name": "Perry",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "hamburger podolico",
+       "schiacciatina di patate alla paprika",
+       "pomodoro grigliato",
+       "provola crispy",
+       "mayo al bacon home made"
+      ],
+      "price": 11.0,
+      "image": "/menu/image_1684867890.webp",
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Frutta a guscio",
+       "Sesamo",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Nerano",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "hamburger podolico",
+       "zucchine croccanti",
+       "provolone Del Monaco",
+       "salsa al basilico home made"
+      ],
+      "price": 9.5,
+      "image": "/menu/image_1684866762.webp",
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Sesamo",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Podos",
+      "desc": "",
+      "ingredients": [
+       "Rucola",
+       "bun artigianale",
+       "hamburger podolico",
+       "crispy bacon",
+       "salsa barbecue affumicata"
+      ],
+      "price": 9.0,
+      "image": "/menu/image_1684964410.webp",
+      "allergens": [
+       "Senape",
+       "Sedano",
+       "Glutine",
+       "Frutta a guscio",
+       "Sesamo"
+      ]
+     },
+     {
+      "name": "Murphy",
+      "desc": "",
+      "ingredients": [
+       "Prosciutto Crudo",
+       "bun artigianale",
+       "hamburger podolico",
+       "brie francese",
+       "melanzane grigliate",
+       "datterino giallo"
+      ],
+      "price": 11.0,
+      "image": "/menu/image_1684868507.webp",
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Sesamo"
+      ]
+     },
+     {
+      "name": "Donald",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "hamburger di podolico",
+       "provola di Agerola",
+       "datterino giallo",
+       "crispy bacon",
+       "lattuga iceberg",
+       "cipolla rossa di Tropea caramellata"
+      ],
+      "price": 10.0,
+      "image": "/menu/image_1684868618.webp",
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Sesamo",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Donkey",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "hamburger di podolico",
+       "cipolla caramellata",
+       "crispy bacon",
+       "cheddar cheese"
+      ],
+      "price": 10.0,
+      "image": "/menu/image_1684868690.webp",
+      "allergens": [
+       "Glutine",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Sesamo"
+      ]
+     },
+     {
+      "name": "Oscar",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "hamburger di podolico",
+       "lattuga iceberg",
+       "uovo",
+       "bacon croccante"
+      ],
+      "price": 10.0,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Frutta a guscio",
+       "Sesamo"
+      ]
+     },
+     {
+      "name": "Nerone (Black Bun)",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale al carbone vegetale",
+       "hamburger di podolico",
+       "iceberg",
+       "Pomodoro",
+       "cheddar cheese",
+       "Bacon",
+       "patate fry & deep"
+      ],
+      "price": 12.0,
+      "image": "/menu/image_1684868755.webp",
+      "allergens": [
+       "Glutine",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Sesamo"
+      ]
+     },
+     {
+      "name": "Ston",
+      "desc": "bun artigianale, hamburger di podolico, pomodori secchi, provolone piccante, melanzane a funghetto, mayo alla ‘nduja, iceberg",
+      "ingredients": [],
+      "price": 11.0,
+      "image": "/menu/image_1690265249.webp",
+      "allergens": [
+       "Sedano",
+       "Glutine",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Sesamo",
+       "Soia"
+      ]
+     },
+     {
+      "name": "Oca nera",
+      "desc": "",
+      "ingredients": [
+       "Bun carbone vegetale",
+       "Hamburger di podolico",
+       "Parmigiana di melanzane",
+       "Provola d’ Agerola",
+       "Pesto di basilico",
+       "Noci"
+      ],
+      "price": 11.0,
+      "image": "/menu/image_1694740225.webp",
+      "allergens": [
+       "Glutine",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Sesamo",
+       "Noci",
+       "Latticini"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Bufala",
+    "items": [
+     {
+      "name": "Noè",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "hamburger di bufala",
+       "crema di aceto allo zafferano",
+       "zucchine grigliate scapece",
+       "pecorino BIO al pistacchio di Bronte"
+      ],
+      "price": 11.5,
+      "image": null,
+      "allergens": [
+       "Anidride solforosa o solfiti",
+       "Glutine",
+       "Frutta a guscio",
+       "Sesamo",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Mulan",
+      "desc": "",
+      "ingredients": [
+       "Brie",
+       "bun artigianale",
+       "hamburger di bufala",
+       "crispy bacon",
+       "misticanza"
+      ],
+      "price": 10.5,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Sesamo",
+       "Latticini"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Maiale",
+    "items": [
+     {
+      "name": "St. James",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "hamburger di maialino nero",
+       "provola crispy",
+       "crema di friarielli",
+       "mayo ai 4 pepi",
+       "songino",
+       "sbriciolata di tarallo napoletano"
+      ],
+      "price": 11.5,
+      "image": "/menu/image_1684868805.webp",
+      "allergens": [
+       "Glutine",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Sesamo"
+      ]
+     },
+     {
+      "name": "Noel",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "hamburger di maialino",
+       "crispy bacon",
+       "mayo alla senape",
+       "formaggio camembert"
+      ],
+      "price": 11.0,
+      "image": "/menu/image_1685468285.webp",
+      "allergens": [
+       "Senape",
+       "Glutine",
+       "Uova e derivati",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Sesamo"
+      ]
+     },
+     {
+      "name": "Henry",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "hamburger di maialino nero",
+       "salsa dell'oca",
+       "lattughino",
+       "crispy bacon"
+      ],
+      "price": 9.5,
+      "image": null,
+      "allergens": [
+       "Senape",
+       "Glutine",
+       "Uova e derivati",
+       "Frutta a guscio",
+       "Sesamo",
+       "Soia"
+      ]
+     },
+     {
+      "name": "Lewis",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "hamburger di maialino nero",
+       "crispy bacon",
+       "cipolla di Tropea",
+       "cheddar cheese"
+      ],
+      "price": 10.0,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Sesamo"
+      ]
+     },
+     {
+      "name": "Pig",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "hamburger di maialino",
+       "patate al forno",
+       "mix funghi trifolati",
+       "provola di Agerola"
+      ],
+      "price": 10.5,
+      "image": "/menu/image_1685468473.webp",
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Sesamo",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Morticia",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "hamburger di maialino nero",
+       "provola di Agerola",
+       "mortadella croccante",
+       "petali di grana",
+       "granella di pistacchio di Bronte"
+      ],
+      "price": 10.5,
+      "image": "/menu/image_1685468694.webp",
+      "allergens": [
+       "Glutine",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Sesamo",
+       "Pistacchio",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Charles",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "pulled pork affumicato",
+       "lattuga iceberg",
+       "cheddar cheese",
+       "cipolla rossa di Tropea caramellata"
+      ],
+      "price": 11.0,
+      "image": "/menu/image_1685467975.webp",
+      "allergens": [
+       "Glutine",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Sesamo"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Pollo",
+    "items": [
+     {
+      "name": "Addams",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "straccetti di pollo fritti",
+       "crispy bacon",
+       "provola di Agerola",
+       "lattuga iceberg",
+       "mayo alla curcuma, pepe nero e limone"
+      ],
+      "price": 10.0,
+      "image": "/menu/image_1685468864.webp",
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Frutta a guscio",
+       "Sesamo",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Edward",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "burger di pollo panato",
+       "cheddar cheese",
+       "lattuga iceberg",
+       "Pomodoro",
+       "crispy bacon",
+       "cipolla caramellata"
+      ],
+      "price": 10.0,
+      "image": "/menu/image_1685468945.webp",
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Sesamo",
+       "Soia"
+      ]
+     },
+     {
+      "name": "Liam",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "burger di pollo",
+       "schiacciata di patate al limone e pepe nero",
+       "mayo ar rosmarino home made",
+       "provola di Agerola",
+       "granella di anacardi",
+       "Rucola"
+      ],
+      "price": 10.0,
+      "image": "/menu/image_1685469047.webp",
+      "allergens": [
+       "Senape",
+       "Glutine",
+       "Uova e derivati",
+       "Frutta a guscio",
+       "Sesamo",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Ollop",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "burger di pollo 200gr. panato in corn flakes",
+       "Pomodoro",
+       "lattuga iceberg",
+       "emmenthal"
+      ],
+      "price": 10.5,
+      "image": "/menu/image_1685469074.webp",
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Sesamo",
+       "Soia"
+      ]
+     },
+     {
+      "name": "Tack",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "burger di pollo",
+       "insalata iceberg",
+       "Pomodoro",
+       "emmenthal"
+      ],
+      "price": 9.0,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Sesamo",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Eklin",
+      "desc": "",
+      "ingredients": [
+       "Bun artigianale",
+       "Pulled chicken",
+       "Patate al forno",
+       "Cheddar",
+       "Granella di cipolla croccante",
+       "Mayonese"
+      ],
+      "price": 11.0,
+      "image": "/menu/image_1690268680.webp",
+      "allergens": [
+       "Senape",
+       "Glutine",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Sesamo"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Vegetariani",
+    "items": [
+     {
+      "name": "Ita",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "hamburger di lenticchie e curry",
+       "lattuga iceberg",
+       "Pomodoro",
+       "cheddar cheese"
+      ],
+      "price": 10.0,
+      "image": "/menu/image_1685470325.webp",
+      "allergens": [
+       "Sedano",
+       "Glutine",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Arachidi",
+       "Sesamo"
+      ]
+     },
+     {
+      "name": "Rory",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "hamburger di ceci e noce moscata",
+       "provolone Del Monaco",
+       "Rucola",
+       "Pomodoro"
+      ],
+      "price": 10.0,
+      "image": "/menu/image_1685470362.webp",
+      "allergens": [
+       "Glutine",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Sesamo"
+      ]
+     },
+     {
+      "name": "Dara",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "burger di zucca e peperoncino",
+       "feta greca",
+       "lattuga iceberg",
+       "ketchup al bloody mary"
+      ],
+      "price": 10.0,
+      "image": "/menu/image_1685470391.webp",
+      "allergens": [
+       "Sedano",
+       "Glutine",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Sesamo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Roast-Beef",
+  "drink": false,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Patrick",
+      "desc": "",
+      "ingredients": [
+       "bun artigianale",
+       "roastbeef di manzo",
+       "Rucola",
+       "patate al forno",
+       "provola di Agerola"
+      ],
+      "price": 10.5,
+      "image": "/menu/image_1694868147.webp",
+      "allergens": [
+       "Sedano",
+       "Glutine",
+       "Frutta a guscio",
+       "Sesamo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Contorni",
+  "drink": false,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Melanzane Grigliate",
+      "desc": "",
+      "ingredients": [],
+      "price": 4.5,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Parmigiana di Melanzane",
+      "desc": "",
+      "ingredients": [],
+      "price": 5.5,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Melanzane a Funghetto",
+      "desc": "",
+      "ingredients": [],
+      "price": 4.5,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Friarielli",
+      "desc": "",
+      "ingredients": [],
+      "price": 4.5,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Mix Funghi Trifolati",
+      "desc": "",
+      "ingredients": [],
+      "price": 4.5,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Zucchine Grigliate",
+      "desc": "",
+      "ingredients": [],
+      "price": 4.5,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Zucchine alla Scapece",
+      "desc": "",
+      "ingredients": [],
+      "price": 4.5,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Peperoni in Padella",
+      "desc": "",
+      "ingredients": [],
+      "price": 4.5,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Lattuga Iceberg",
+      "desc": "",
+      "ingredients": [],
+      "price": 4.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Insalata Mista",
+      "desc": "",
+      "ingredients": [],
+      "price": 4.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Crauti",
+      "desc": "",
+      "ingredients": [],
+      "price": 4.5,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Patate Fresche o Surgelate",
+      "desc": "",
+      "ingredients": [],
+      "price": 4.5,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Pomodori",
+      "desc": "",
+      "ingredients": [],
+      "price": 4.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Patate al Forno",
+      "desc": "",
+      "ingredients": [],
+      "price": 5.5,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Crostoni E Club",
+  "drink": false,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Bred",
+      "desc": "",
+      "ingredients": [
+       "crostoni di pane bianco",
+       "porchetta di Ariccia",
+       "cipolla caramellata",
+       "melanzane grigliate",
+       "mayo alla nduja"
+      ],
+      "price": 10.0,
+      "image": "/menu/image_1694185114.webp",
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Latte e derivati",
+       "Frutta a guscio"
+      ]
+     },
+     {
+      "name": "Phelan",
+      "desc": "",
+      "ingredients": [
+       "crostoni di pane bianco",
+       "Prosciutto Crudo",
+       "provola di Agerola",
+       "insalata",
+       "Pomodoro"
+      ],
+      "price": 8.5,
+      "image": "/menu/image_1694185137.webp",
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Niall",
+      "desc": "",
+      "ingredients": [
+       "crostoni di pane bianco",
+       "Prosciutto Crudo",
+       "provola di Agerola",
+       "mix di funghi trifolati"
+      ],
+      "price": 8.5,
+      "image": "/menu/image_1694185175.webp",
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Tad",
+      "desc": "",
+      "ingredients": [
+       "crostoni di pane bianco",
+       "Prosciutto Cotto",
+       "provola di Agerola",
+       "melanzane a funghetto"
+      ],
+      "price": 8.5,
+      "image": "/menu/image_1694185211.webp",
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Club Sandwich",
+      "desc": "",
+      "ingredients": [
+       "pane american sandwich",
+       "petto di pollo",
+       "crispy bacon",
+       "mayo",
+       "lattuga iceberg",
+       "Pomodoro",
+       "accompagnato da patatine fry & deep"
+      ],
+      "price": 12.0,
+      "image": "/menu/image_1694185275.webp",
+      "allergens": [
+       "Senape",
+       "Glutine",
+       "Uova e derivati",
+       "Frutta a guscio",
+       "Soia",
+       "Latticini"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Saltimbocca",
+  "drink": false,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Artur",
+      "desc": "",
+      "ingredients": [
+       "prosciutto cotto",
+       "provola d’Agerola",
+       "Melanzane a Funghetti"
+      ],
+      "price": 8.5,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Latte e derivati",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Cuan",
+      "desc": "",
+      "ingredients": [
+       "prosciutto crudo",
+       "pomodorini",
+       "provola d’Agerola"
+      ],
+      "price": 8.5,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Frutta a guscio",
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Aladino",
+      "desc": "saltimbocca da farcire a proprio gusto",
+      "ingredients": [],
+      "price": 8.5,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Piatti",
+  "drink": false,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Bawern Platte",
+      "desc": "",
+      "ingredients": [
+       "tris di wurstel: flash wurstel tirolese, bockwurstel, wurstel di suino ripieno di formaggio filane e avvolto in bacon",
+       "accompagnato da crauti e patatine fry & deep"
+      ],
+      "price": 16.0,
+      "image": "/menu/image_1685476948.webp",
+      "allergens": [
+       "Latte e derivati"
+      ]
+     },
+     {
+      "name": "Fagioli Mexicanos e Riso Venere",
+      "desc": "",
+      "ingredients": [
+       "fagioli neri con pomodoro e peperoncino",
+       "salsiccia a punta di coltello sbriciolata",
+       "accompagnato da riso venere con scaglie di grana"
+      ],
+      "price": 11.0,
+      "image": "/menu/image_1685476891.webp",
+      "allergens": [
+       "Latte e derivati"
+      ]
+     },
+     {
+      "name": "Turkey Slice",
+      "desc": "",
+      "ingredients": [
+       "Fesa di Tacchino",
+       "melanzane grigliate"
+      ],
+      "price": 8.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Shones",
+      "desc": "Rucola, bresaola, scaglie di grana, aceto balsamico di Modena",
+      "ingredients": [],
+      "price": 8.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Hamburger Podolico con contorno a scelta",
+      "desc": "",
+      "ingredients": [],
+      "price": 10.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Bavarian Platte",
+      "desc": "",
+      "ingredients": [
+       "Würstel servelade imbottito di formaggio e coperta da pancetta",
+       "BOCKWURST",
+       "Würstel al ceddar",
+       "Parate dippers"
+      ],
+      "price": 16.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Würstel con contorno",
+      "desc": "",
+      "ingredients": [],
+      "price": 10.0,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Carne Al Piatto",
+  "drink": false,
+  "sections": [
+   {
+    "title": "Manzo",
+    "items": [
+     {
+      "name": "Gourmet Burger Chianina IGP",
+      "desc": "Hamburger di Chianina 250gr con contorno a scelta",
+      "ingredients": [
+       "Hamburger di Chianina IGP 250 gr",
+       "contorno a scelta"
+      ],
+      "price": 16.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Big Burger di Scottona",
+      "desc": "Hamburger di Scottona 400gr con contorno a scelta",
+      "ingredients": [
+       "Hamburger di Scottona 400 gr.",
+       "contorno a scelta"
+      ],
+      "price": 15.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Entrecote Irlandese",
+      "desc": "Entrecote Irlandese 300gr con contorno a scelta",
+      "ingredients": [
+       "Entrecote Irlandese 300 gr.",
+       "patate fry & deep."
+      ],
+      "price": 21.0,
+      "image": "/menu/image_1685476815.webp",
+      "allergens": []
+     },
+     {
+      "name": "Tagliata di Manzo Irlandese",
+      "desc": "Tagliata di controfiletto di manzo irlandese 300gr con aceto balsamico di Modena, rucola e scaglie di grana",
+      "ingredients": [
+       "tagliata di controfiletto di manzo 300 gr. con aceto balsamico di Modena",
+       "Rucola",
+       "scaglie di grana"
+      ],
+      "price": 23.0,
+      "image": null,
+      "allergens": [
+       "Anidride solforosa o solfiti",
+       "Latte e derivati"
+      ]
+     },
+     {
+      "name": "Filetto di Irlandese",
+      "desc": "Filetto di manzo irlandese 300gr con contorno a scelta",
+      "ingredients": [
+       "filetto di manzo 300 gr.",
+       "contorno a scelta"
+      ],
+      "price": 23.0,
+      "image": "/menu/image_1685476867.webp",
+      "allergens": []
+     },
+     {
+      "name": "Hamburger Podolico con contorno a scelta",
+      "desc": "",
+      "ingredients": [],
+      "price": 11.5,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   },
+   {
+    "title": "Maiale",
+    "items": [
+     {
+      "name": "Maxi Pig",
+      "desc": "Costata di maiale, salsiccia a punta di coltello, scamorza e contorno a scelta",
+      "ingredients": [
+       "scamorza",
+       "costata di maiale",
+       "salsiccia a punta di coltello",
+       "contorno a scelta"
+      ],
+      "price": 20.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Old Pig",
+      "desc": "Costata di maiale con contorno a scelta",
+      "ingredients": [
+       "costata di maiale",
+       "contorno a scelta"
+      ],
+      "price": 14.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Ribs",
+      "desc": "Costine di maiale in salsa barbecue, con patate Fry & Deep",
+      "ingredients": [
+       "costine di maiale in salsa barbecue",
+       "patatine fry & deep"
+      ],
+      "price": 15.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Stinco alla Birra",
+      "desc": "",
+      "ingredients": [
+       "stinco di maiale alla birra",
+       "patatine fry & deep"
+      ],
+      "price": 15.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Hamburger Maialino con contorno a scelta",
+      "desc": "",
+      "ingredients": [],
+      "price": 11.5,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   },
+   {
+    "title": "Pollo",
+    "items": [
+     {
+      "name": "Cruncy XXL",
+      "desc": "Hamburger di pollo 200gr panato con patate Fry & Deep",
+      "ingredients": [
+       "hamburger di pollo 200 gr. in panatura di fiocchi di mais",
+       "patate fry & deep"
+      ],
+      "price": 10.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Ollop Plate",
+      "desc": "Hamburger di pollo CBT panato con corn flex e contorno a scelta",
+      "ingredients": [],
+      "price": 9.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Cotoletta con contorno",
+      "desc": "",
+      "ingredients": [],
+      "price": 10.0,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Insalatone E Scamorze",
+  "drink": false,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Damh",
+      "desc": "Insalata mista, formaggio feta, mais, pomodorini, pannocchiette, olive",
+      "ingredients": [
+       "Olive",
+       "insalata mista",
+       "formaggio feta",
+       "mais",
+       "pomodorini",
+       "pannocchiette"
+      ],
+      "price": 8.0,
+      "image": null,
+      "allergens": [
+       "Latte e derivati"
+      ]
+     },
+     {
+      "name": "Arcobaleno",
+      "desc": "",
+      "ingredients": [
+       "Carote",
+       "insalata mista",
+       "pomodorini",
+       "mais",
+       "scaglie di grana",
+       "aceto balsamico di Modena"
+      ],
+      "price": 8.0,
+      "image": null,
+      "allergens": [
+       "Anidride solforosa o solfiti",
+       "Latte e derivati"
+      ]
+     },
+     {
+      "name": "Scamorza alla Piastra con Friarielli o Funghi",
+      "desc": "",
+      "ingredients": [],
+      "price": 11.0,
+      "image": null,
+      "allergens": [
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Scamorza alla Piastra con Speck e Funghi",
+      "desc": "",
+      "ingredients": [],
+      "price": 12.5,
+      "image": null,
+      "allergens": [
+       "Latticini"
+      ]
+     },
+     {
+      "name": "Shones",
+      "desc": "",
+      "ingredients": [
+       "Rucola",
+       "Bresaola",
+       "Scaglie di grana",
+       "Aceto balsamico di Modena"
+      ],
+      "price": 8.5,
+      "image": null,
+      "allergens": [
+       "Anidride solforosa o solfiti",
+       "Latte e derivati"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "I Dolci Dell'Oca",
+  "drink": false,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Panna Cotta - •Caramello •Fragola •Frutti di bosco •Cioccolato •Nocciola •Nutella •Cioccolato bianco •Amarena •Amaretto",
+      "desc": "",
+      "ingredients": [],
+      "price": 4.5,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Arachidi"
+      ]
+     },
+     {
+      "name": "Panna Cotta - Pistacchio",
+      "desc": "",
+      "ingredients": [],
+      "price": 5.5,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Arachidi",
+       "Pistacchio"
+      ]
+     },
+     {
+      "name": "Cheese Cake - •Caramello •Fragola •Frutti di bosco •Cioccolato •Nocciola •Nutella •Cioccolato bianco •Amarena •Amaretto",
+      "desc": "",
+      "ingredients": [],
+      "price": 6.0,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Latte e derivati"
+      ]
+     },
+     {
+      "name": "Cheese Cake - Pistacchio",
+      "desc": "",
+      "ingredients": [],
+      "price": 7.0,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Latte e derivati",
+       "Arachidi",
+       "Pistacchio"
+      ]
+     },
+     {
+      "name": "Torta di Mele Calda con Gelato",
+      "desc": "Torta calda a base di mele, accompagnata da gelato alla vaniglia.",
+      "ingredients": [],
+      "price": 6.0,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Latte e derivati"
+      ]
+     },
+     {
+      "name": "Torta Dell'Oca",
+      "desc": "Torta pan di Spagna con tre strati di cioccolato.",
+      "ingredients": [],
+      "price": 6.0,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Arachidi",
+       "Soia"
+      ]
+     },
+     {
+      "name": "Torta Happy",
+      "desc": "Torta con biscotti Oreo, cioccolato bianco e cioccolato fondente.",
+      "ingredients": [],
+      "price": 6.0,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Soia"
+      ]
+     },
+     {
+      "name": "Brownie con Gelato",
+      "desc": "Brownie al cioccolato fondente e noci.",
+      "ingredients": [],
+      "price": 6.5,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Latte e derivati",
+       "Frutta a guscio"
+      ]
+     },
+     {
+      "name": "Tortino al Cioccolato",
+      "desc": "Soffice tortino al cioccolato dal cuore caldo.",
+      "ingredients": [],
+      "price": 5.0,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Latte e derivati",
+       "Frutta a guscio",
+       "Soia"
+      ]
+     },
+     {
+      "name": "Snickers Cake",
+      "desc": "Torta al cioccolato, arachidi e caramello.",
+      "ingredients": [],
+      "price": 6.0,
+      "image": null,
+      "allergens": [
+       "Glutine",
+       "Uova e derivati",
+       "Latte e derivati",
+       "Arachidi",
+       "Soia"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Birre",
+  "drink": true,
+  "sections": [
+   {
+    "title": "Whisky",
+    "items": [
+     {
+      "name": "Jack Daniel's",
+      "desc": "",
+      "ingredients": [],
+      "price": 7.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Glenfiddich",
+      "desc": "",
+      "ingredients": [],
+      "price": 7.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Jameson",
+      "desc": "",
+      "ingredients": [],
+      "price": 7.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Talisker 10 anni",
+      "desc": "",
+      "ingredients": [],
+      "price": 10.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Bushmills 10 anni",
+      "desc": "",
+      "ingredients": [],
+      "price": 10.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Lagavulin",
+      "desc": "",
+      "ingredients": [],
+      "price": 16.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Oban 14 anni",
+      "desc": "",
+      "ingredients": [],
+      "price": 14.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Berry Bros & Rudd Islay",
+      "desc": "",
+      "ingredients": [
+       "La torba ci accoglie e ci avvolge in note di fumo da falò, iodio e carbone con note di crema pasticcera e quercia tostata."
+      ],
+      "price": 8.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Berry Bros & Rudd Speyside",
+      "desc": "",
+      "ingredients": [
+       "Note dolci di frutta matura, mele, ananas, miele e agrumi con sentori di rovere e vaniglia."
+      ],
+      "price": 8.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Berry Bros & Rudd Sherry",
+      "desc": "",
+      "ingredients": [
+       "Qui abbiamo un delizioso imbottigliamento con single malts invecchiati in sole botti €8,00 sherry."
+      ],
+      "price": 8.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Silkie Midnight Irish Whisky",
+      "desc": "",
+      "ingredients": [
+       "La Midnight Silkie completa la collezione principale di Silkie ed è la nostra miscela più affumicata, con quattro single malta tripla distillazione e un single malt torbato."
+      ],
+      "price": 7.0,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   },
+   {
+    "title": "Birre Alla Spina",
+    "items": [
+     {
+      "name": "GUINNESS DRAUGHT - 500 ml.",
+      "desc": "Birra stout, irlandese ad alta fermentazione dal colore nero ed un aroma con note di caffè e liquirizia, gradazione alcolica 4,2%.",
+      "ingredients": [],
+      "price": 6.5,
+      "image": "/menu/image_1694111904.webp",
+      "allergens": []
+     },
+     {
+      "name": "GUINNESS DRAUGHT - 250 ml.",
+      "desc": "Birra stout, irlandese ad alta fermentazione dal colore nero ed un aroma con note di caffè e liquirizia, gradazione alcolica 4,2%.",
+      "ingredients": [],
+      "price": 4.0,
+      "image": "/menu/image_1694111882.webp",
+      "allergens": []
+     },
+     {
+      "name": "TENNENT'S SUPER - 400 ml.",
+      "desc": "E’ ancora oggi una delle lager con il maggior contenuto di gradi saccarometrici ed alcolici. Si distingue per il gusto dolce ed un finale luppolato e leggermente speziato . Il colore dorato carico è ottenuto grazie alla tostatura del malto a temperature più elevate rispetto ad una classica lager.",
+      "ingredients": [],
+      "price": 6.5,
+      "image": "/menu/image_1694111957.webp",
+      "allergens": []
+     },
+     {
+      "name": "TENNENT'S SUPER - 200 ml.",
+      "desc": "E’ ancora oggi una delle lager con il maggior contenuto di gradi saccarometrici ed alcolici. Si distingue per il gusto dolce ed un finale luppolato e leggermente speziato . Il colore dorato carico è ottenuto grazie alla tostatura del malto a temperature più elevate rispetto ad una classica lager.",
+      "ingredients": [],
+      "price": 4.0,
+      "image": "/menu/image_1694111932.webp",
+      "allergens": []
+     },
+     {
+      "name": "GOOSE ISLAND IPA - 500ml.",
+      "desc": "Per creare questa IPA, lo stile tradizionale inglese è stato rivisitato , intensificando le note agrumate ed l'intenso finale dato dai luppoli Cascade e Centennial. Con il suo aroma luppolato, deciso e morbido, la Goose IPA è la birra perfetta tanto per gli appassionati di birra quanto per i nuovi bevitori.",
+      "ingredients": [],
+      "price": 6.5,
+      "image": "/menu/image_1770233459.webp",
+      "allergens": []
+     },
+     {
+      "name": "GOOSE ISLAND IPA - 250ml.",
+      "desc": "Per creare questa IPA, lo stile tradizionale inglese è stato rivisitato , intensificando le note agrumate ed l'intenso finale dato dai luppoli Cascade e Centennial. Con il suo aroma luppolato, deciso e morbido, la Goose IPA è la birra perfetta tanto per gli appassionati di birra quanto per i nuovi bevitori.",
+      "ingredients": [],
+      "price": 4.0,
+      "image": "/menu/image_1770233493.webp",
+      "allergens": []
+     },
+     {
+      "name": "BASS BEST SCOTCH - 400 ml.",
+      "desc": "Bass Best Scotch è la birra che incarna tutto il gusto della tradizione scozzese dal colore ambrato/ramato, con schiuma fine e tipicamente poco resistente. L'utilizzo di malti inglesi garantisce un bouquet olfattivo di discreta intensità, apportando note dolci di caramello e lieve tostatura. Il gusto parte dal dolce e culmina in un'avvolgente nota etilica.",
+      "ingredients": [],
+      "price": 6.5,
+      "image": "/menu/image_1694112062.webp",
+      "allergens": []
+     },
+     {
+      "name": "BASS BEST SCOTCH - 200 ml.",
+      "desc": "Bass Best Scotch è la birra che incarna tutto il gusto della tradizione scozzese dal colore ambrato/ramato, con schiuma fine e tipicamente poco resistente. L'utilizzo di malti inglesi garantisce un bouquet olfattivo di discreta intensità, apportando note dolci di caramello e lieve tostatura. Il gusto parte dal dolce e culmina in un'avvolgente nota etilica.",
+      "ingredients": [],
+      "price": 4.0,
+      "image": "/menu/image_1694112493.webp",
+      "allergens": []
+     },
+     {
+      "name": "LEFFE RITUEL 9° - 330 ml.",
+      "desc": "Dal colore ambrato intenso, Leffe Rituel 9° è una birra piena di carattere grazie alla sua elevata gradazione alcolica e al suo gusto ricco, speziato, fruttato e al tempo stesso leggermente amarognolo. Il retrogusto è persistente e richiama leggermente l’affumicato.",
+      "ingredients": [],
+      "price": 6.0,
+      "image": "/menu/image_1694112344.webp",
+      "allergens": []
+     },
+     {
+      "name": "LEFFE BLONDE - 330 ml.",
+      "desc": "Leffe Blonde possiede un’ampia gamma di aromi equilibrati ed ha un sapore elegante, morbido e fruttato con retrogusto lievemente speziato. Dal colore dorato, l'utilizzo di malto Pale ne accentua il corpo e la complessità.",
+      "ingredients": [],
+      "price": 5.5,
+      "image": "/menu/image_1694112092.webp",
+      "allergens": []
+     },
+     {
+      "name": "LEFFE ROUGE - 330 ml.",
+      "desc": "Leffe Rouge è una birra che sprizza vitalità, si presenta con un bel colore ambrato, caratterizzata da una schiuma densa e persistente. Al naso propone un aroma intenso di malto con note di tostatura e di agrumi canditi. Oltre all’utilizzo di malto Pale viene utilizzata una piccola percentuale di malto Crystal che conferisce il caratteristico colore ed aroma.",
+      "ingredients": [],
+      "price": 5.5,
+      "image": "/menu/image_1694112126.webp",
+      "allergens": []
+     },
+     {
+      "name": "JUPILER - 500 ml.",
+      "desc": "\"Jupiler è la birra n. 1 in Belgio. Una pils belga con un leggero gusto vellutato e maltato dal retrogusto secco amaro. L’utilizzo di mais in piccole percentuali conferisce a Jupiler il suo caratteristico sapore e l'inconfondibile leggerezza durante la bevuta.",
+      "ingredients": [],
+      "price": 5.5,
+      "image": "/menu/image_1694112529.webp",
+      "allergens": []
+     },
+     {
+      "name": "JUPILER - 250 ml.",
+      "desc": "\"Jupiler è la birra n. 1 in Belgio. Una pils belga con un leggero gusto vellutato e maltato dal retrogusto secco amaro. L’utilizzo di mais in piccole percentuali conferisce a Jupiler il suo caratteristico sapore e l'inconfondibile leggerezza durante la bevuta. · \"",
+      "ingredients": [],
+      "price": 3.5,
+      "image": "/menu/image_1694112457.webp",
+      "allergens": []
+     },
+     {
+      "name": "RIEGELE AUGUSTUS - 500 ml.",
+      "desc": "Birra weisse tedesca, ad alta fermentazione dal colore bianco torbido ed un aroma di luppolo vellutato, gradazione alcolica 8%.",
+      "ingredients": [],
+      "price": 6.5,
+      "image": "/menu/image_1694112605.webp",
+      "allergens": []
+     },
+     {
+      "name": "RIEGELE AUGUSTUS - 300 ml.",
+      "desc": "Birra weisse tedesca, ad alta fermentazione dal colore bianco torbido ed un aroma di luppolo vellutato, gradazione alcolica 8%.",
+      "ingredients": [],
+      "price": 4.0,
+      "image": "/menu/image_1694112576.webp",
+      "allergens": []
+     },
+     {
+      "name": "Franziskaner Weissbier - 500 ml",
+      "desc": "Franziskaner Weissbier - 500 ml",
+      "ingredients": [],
+      "price": 6.0,
+      "image": "/menu/image_1694112630.webp",
+      "allergens": []
+     },
+     {
+      "name": "Franziskaner Weissbier - 300 ml",
+      "desc": "",
+      "ingredients": [],
+      "price": 3.5,
+      "image": "/menu/image_1694112671.webp",
+      "allergens": []
+     },
+     {
+      "name": "Birra Del Mese",
+      "desc": "COORS AMERICAN LAGER · Coors, la birra più longeva e rappresentativa del West statunitense, è in grado di dirti quando ha raggiunto la temperatura giusta per essere gustata. · Le montagne raffigurate sul bicchiere fungono da indicatore di temperatura. · * ﻿﻿Quando le montagne sono bianche, la birra è a temperatura ambiente ed è troppo calda per essere gustata al meglio. · * ﻿﻿Quando le montagne diventano blu brillante, significa che la birra ha raggiunto la temperatura ideale di consumo (circa 4°C 8°C) ed è pronta da bere · · Nazionalità: Stati Uniti · Fermentazione: Bassa · Grado alcolico: 4.3%VOL · Colore: Oro Chiaro",
+      "ingredients": [
+       "ROTHAUS PILS"
+      ],
+      "price": 7.0,
+      "image": "/menu/image_1705697275.webp",
+      "allergens": []
+     }
+    ]
+   },
+   {
+    "title": "Birre In Bottiglia",
+    "items": [
+     {
+      "name": "LEFFE RITUEL 9° - 750 ml.",
+      "desc": "Dal colore ambrato intenso, Leffe Rituel 9° è una birra piena di carattere grazie alla sua elevata gradazione alcolica e al suo gusto ricco, speziato, fruttato e al tempo stesso leggermente amarognolo. Il retrogusto è persistente e richiama leggermente l’affumicato.",
+      "ingredients": [],
+      "price": 13.0,
+      "image": "/menu/image_1694117313.webp",
+      "allergens": []
+     },
+     {
+      "name": "RIEGERLE PRIVAT - 500 ml.",
+      "desc": "Birra lager tedesca, a bassa fermentazione, dal colore oro ed un aroma corposo, gradazione alcolica 5,2%.",
+      "ingredients": [],
+      "price": 5.0,
+      "image": "/menu/image_1694114416.webp",
+      "allergens": []
+     },
+     {
+      "name": "RIEGELE AUGUSTUS - 500 ml.",
+      "desc": "Birra weizen scura tedesca, ad alta fermentazione, dal colore scuro ed un aroma fruttato, caramello, gusto corposo, gradazione alcolica 8%.",
+      "ingredients": [],
+      "price": 6.0,
+      "image": "/menu/image_1694114464.webp",
+      "allergens": []
+     },
+     {
+      "name": "RIEGELE WEISSE - 500 ml.",
+      "desc": "Birra weizen tedesca, ad alta fermentazione, dal colore bianco torbido un aroma amaro corposo, gradazione alcolica 5%.",
+      "ingredients": [],
+      "price": 6.0,
+      "image": "/menu/image_1694114438.webp",
+      "allergens": []
+     },
+     {
+      "name": "RIEGELE WEISSE ALKOLFREE - 500 ml.",
+      "desc": "Birra trappista tedesca, ad alta fermentazione, dal colore biondo dorato un aroma fruttato, gradazione alcolica 0%.",
+      "ingredients": [],
+      "price": 5.0,
+      "image": "/menu/image_1694114197.webp",
+      "allergens": []
+     },
+     {
+      "name": "GLUTEN FREE - 330 ml.",
+      "desc": "Birra senza glutine spagnola da colore giallo dorato ed un aroma di lieviti, pane, ginestra, erbe mediterranee, gradazione alcolica 5,4%.",
+      "ingredients": [],
+      "price": 5.0,
+      "image": "/menu/image_1694116836.webp",
+      "allergens": []
+     },
+     {
+      "name": "Magners Irish Cider - 330 ml.",
+      "desc": "Cidro di mele prodotto utilizzando ingredienti naturali, la miscela del succo di 17 tipi diversi di mele, provenienti dagli stessi frutteti magners, maturazione media di circa 2 anni per ottenere il gusto unico e rinfrescante, gradazione alcolica 4,5%.",
+      "ingredients": [],
+      "price": 5.0,
+      "image": "/menu/image_1694124920.webp",
+      "allergens": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Birre In Lattina",
+  "drink": true,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "HOBGOBLIN IPA - 500 ml.",
+      "desc": "Birra ipa inglese, ad alta fermentazione e dal colore ambrato un aroma tropicale ed amaro, · gradazione alcolica 5%.",
+      "ingredients": [],
+      "price": 6.0,
+      "image": "/menu/image_1694117580.webp",
+      "allergens": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Amari",
+  "drink": true,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Amaro del Capo",
+      "desc": "",
+      "ingredients": [],
+      "price": 4.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Snake Oil",
+      "desc": "",
+      "ingredients": [
+       "Autentico, senza aromi artificiali e conservanti, sono sedici le botaniche che compongono questo sorprendente amaro"
+      ],
+      "price": 5.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Amaro Averna",
+      "desc": "",
+      "ingredients": [],
+      "price": 4.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Jegermeister",
+      "desc": "",
+      "ingredients": [],
+      "price": 4.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Mannamaru",
+      "desc": "",
+      "ingredients": [
+       "L'amaro siciliano che nasce alle pendici dell'Etna, prodotto in piccole quantità, utilizzando mandarini BIO che selezioniamo con cura."
+      ],
+      "price": 4.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Amaro Del Farmacista",
+      "desc": "",
+      "ingredients": [
+       "Le 5 erbe contenute nell'amaro del Farmacista hanno un azione digestiva e anche stimolante per l'appetito."
+      ],
+      "price": 5.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Jefferson",
+      "desc": "",
+      "ingredients": [],
+      "price": 5.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Elisir Dello Speziale",
+      "desc": "",
+      "ingredients": [
+       "Spezie esotiche ed erbe del Trentino in piacevole armonia."
+      ],
+      "price": 5.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Amaro Formidabile",
+      "desc": "",
+      "ingredients": [
+       "Un liquore amaro naturale elaborato artigianalmente con un processo di macerazione di piante aromatiche ed officinali in purissimo alcool di grano."
+      ],
+      "price": 5.0,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Chupiti",
+  "drink": true,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Liquirizia",
+      "desc": "",
+      "ingredients": [],
+      "price": 2.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Limoncello",
+      "desc": "",
+      "ingredients": [],
+      "price": 2.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Meloncello",
+      "desc": "",
+      "ingredients": [],
+      "price": 2.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Annurchello",
+      "desc": "",
+      "ingredients": [],
+      "price": 2.0,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Grappe",
+  "drink": true,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Gold Barrique",
+      "desc": "",
+      "ingredients": [],
+      "price": 5.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Grappa Bianca",
+      "desc": "",
+      "ingredients": [],
+      "price": 5.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Grappa Morbida Bianca",
+      "desc": "",
+      "ingredients": [],
+      "price": 5.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Grappa Morbida Ambra",
+      "desc": "",
+      "ingredients": [],
+      "price": 5.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Grappa alla Cannella",
+      "desc": "",
+      "ingredients": [],
+      "price": 5.0,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Bibite",
+  "drink": true,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Acqua Naturale - 750 ml.",
+      "desc": "",
+      "ingredients": [],
+      "price": 2.5,
+      "image": "/menu/image_1694131746.webp",
+      "allergens": []
+     },
+     {
+      "name": "Acqua Naturale in Lattina - 330 ml.",
+      "desc": "",
+      "ingredients": [],
+      "price": 1.5,
+      "image": "/menu/image_1694131775.webp",
+      "allergens": []
+     },
+     {
+      "name": "Acqua Gassata - 750 ml.",
+      "desc": "",
+      "ingredients": [],
+      "price": 2.5,
+      "image": "/menu/image_1694131797.webp",
+      "allergens": []
+     },
+     {
+      "name": "Acqua Gassata in Lattina - 330 ml.",
+      "desc": "",
+      "ingredients": [],
+      "price": 1.5,
+      "image": "/menu/image_1694131848.webp",
+      "allergens": []
+     },
+     {
+      "name": "Pepsi Cola alla Spina - 500 ml.",
+      "desc": "",
+      "ingredients": [],
+      "price": 3.5,
+      "image": "/menu/image_1694131902.webp",
+      "allergens": []
+     },
+     {
+      "name": "Coca Cola - 330 ml.",
+      "desc": "",
+      "ingredients": [],
+      "price": 3.0,
+      "image": "/menu/image_1694131962.webp",
+      "allergens": []
+     },
+     {
+      "name": "Coca Cola Zero - 330 ml.",
+      "desc": "",
+      "ingredients": [],
+      "price": 3.0,
+      "image": "/menu/image_1694132035.webp",
+      "allergens": []
+     },
+     {
+      "name": "Fanta - 330 ml.",
+      "desc": "",
+      "ingredients": [],
+      "price": 3.0,
+      "image": "/menu/image_1694132093.webp",
+      "allergens": []
+     },
+     {
+      "name": "Sprite - 330 ml.",
+      "desc": "",
+      "ingredients": [],
+      "price": 3.0,
+      "image": "/menu/image_1694132124.webp",
+      "allergens": []
+     },
+     {
+      "name": "Spezi - 330 ml.",
+      "desc": "Drink analcolico a base di cola, limone ed arancio",
+      "ingredients": [],
+      "price": 3.5,
+      "image": "/menu/image_1694132155.webp",
+      "allergens": []
+     },
+     {
+      "name": "Succhi di Frutta - 330 ml.",
+      "desc": "Gusti vari, chiedi la disponibilità.",
+      "ingredients": [],
+      "price": 3.0,
+      "image": "/menu/image_1694896228.webp",
+      "allergens": []
+     },
+     {
+      "name": "Schweppes Tonic Water",
+      "desc": "",
+      "ingredients": [],
+      "price": 3.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Schweppes Lemon",
+      "desc": "",
+      "ingredients": [],
+      "price": 3.0,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Liquori",
+  "drink": true,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Armagnac",
+      "desc": "",
+      "ingredients": [],
+      "price": 5.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Cardinal Mendoza",
+      "desc": "",
+      "ingredients": [],
+      "price": 7.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Cognac",
+      "desc": "",
+      "ingredients": [],
+      "price": 5.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Passito di Pantelleria",
+      "desc": "",
+      "ingredients": [],
+      "price": 5.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Porto Bianco",
+      "desc": "",
+      "ingredients": [],
+      "price": 5.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Porto Rosso",
+      "desc": "",
+      "ingredients": [],
+      "price": 5.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Bayles",
+      "desc": "",
+      "ingredients": [],
+      "price": 5.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Pura Liquore Di Liquirizia",
+      "desc": "",
+      "ingredients": [
+       "Ricca di estratti ed aromi ricavati dalle radicidi \"Liquirizia di Calabria DOP da origine Biologica\","
+      ],
+      "price": 4.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Rosolio D'Anici",
+      "desc": "",
+      "ingredients": [
+       "Ricetta tramandata da Pellegrino Artusi, nasce dall'infusione dei semi del rarissimo Anice di Romagna."
+      ],
+      "price": 4.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Amaretto D'Angera",
+      "desc": "",
+      "ingredients": [
+       "Liquore dolce dal colore ambrato intensoottenuto dall'infusione di mandorle dolcied amare insieme ad altre erbe."
+      ],
+      "price": 4.0,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Cantina",
+  "drink": true,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "NERO D'AVOLA - Cantina Branciforti, vol. 13% - Calice",
+      "desc": "",
+      "ingredients": [],
+      "price": 5.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "NERO D'AVOLA - Cantina Branciforti, vol. 13% - Bottiglia 750 ml.",
+      "desc": "",
+      "ingredients": [],
+      "price": 16.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "PRIMITIVO IGP MANDURIA - Cantina Lirica, vol. 13,5% - Calice",
+      "desc": "",
+      "ingredients": [],
+      "price": 5.5,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "PRIMITIVO IGP MANDURIA - Cantina Litica, vol. 13,5% - Bottiglia 750 ml.",
+      "desc": "",
+      "ingredients": [],
+      "price": 18.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "MORELLINO DI SCANSANO - Cantina Vignaioli, vol. 13,5% - Bottiglia 750 ml.",
+      "desc": "",
+      "ingredients": [],
+      "price": 18.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "RUBRATO AGLIANICO - Cantina Paterno, vol. 13,5% - Bottiglia 750 ml.",
+      "desc": "",
+      "ingredients": [],
+      "price": 17.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "FALANGHINA - Cantina Feudi di San Gregorio, vol. 12,5% - Bottiglia 375 ml.",
+      "desc": "",
+      "ingredients": [],
+      "price": 8.5,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "FALANGHINA - Cantina Paterno , vol. 12,5% - Bottiglia 750 ml.",
+      "desc": "",
+      "ingredients": [],
+      "price": 16.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "PROSECCO DELL'OCA - Bottiglia 200 ml.",
+      "desc": "",
+      "ingredients": [],
+      "price": 5.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "PROSECCO DELL'OCA - Bottiglia 750 ml.",
+      "desc": "",
+      "ingredients": [],
+      "price": 15.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "SANGRIA DELL'OCA - Sangria Spagnola, vol. 11% - Calice",
+      "desc": "",
+      "ingredients": [],
+      "price": 4.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "SANGRIA DELL'OCA - Sangria Spagnola, vol. 11% - Litro",
+      "desc": "",
+      "ingredients": [],
+      "price": 15.0,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Drink List",
+  "drink": true,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Lo Spritz dell'Oca Nera",
+      "desc": "",
+      "ingredients": [
+       "Bitter Marendray all'amarena",
+       "sidro Magners",
+       "amarena fresca"
+      ],
+      "price": 8.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Il Boulevardier",
+      "desc": "",
+      "ingredients": [
+       "Whisky Ezra Brooks Ray",
+       "Vermouth rosso Civico 10",
+       "bitter Valentini."
+      ],
+      "price": 8.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Old fashioned",
+      "desc": "",
+      "ingredients": [
+       "Bourbon whiskei Ezra Brook 99 proof",
+       "Angostura",
+       "zolletta di zucchero."
+      ],
+      "price": 8.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Dark'n Stormy",
+      "desc": "",
+      "ingredients": [
+       "Black Seal rum Goslings",
+       "ginger bee Goslings."
+      ],
+      "price": 8.0,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "La Trilogia Del Negroni",
+  "drink": true,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Il Negroni Bianco",
+      "desc": "",
+      "ingredients": [
+       "Gin PHD",
+       "vermouth bianco Style 31",
+       "bitter bianco Damarco."
+      ],
+      "price": 8.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Il Negroni del Contadino",
+      "desc": "",
+      "ingredients": [
+       "Bitter Valentini",
+       "vermouth rosso Coloniale",
+       "gin Silver Spear",
+       "Marzadro liquore al fieno."
+      ],
+      "price": 8.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Il negroni Italiano",
+      "desc": "",
+      "ingredients": [
+       "Gin Latitudine 45",
+       "vermouth Coloniale",
+       "bitter Opera Rossa."
+      ],
+      "price": 8.0,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Rum",
+  "drink": true,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Rum al Miele",
+      "desc": "",
+      "ingredients": [],
+      "price": 6.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Rum Agricolo",
+      "desc": "",
+      "ingredients": [],
+      "price": 6.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Rum 5 anni",
+      "desc": "",
+      "ingredients": [],
+      "price": 6.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Rum 10 anni",
+      "desc": "",
+      "ingredients": [],
+      "price": 8.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Rum 15 anni",
+      "desc": "",
+      "ingredients": [],
+      "price": 12.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Zacapa 23",
+      "desc": "",
+      "ingredients": [],
+      "price": 15.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Zacapa X0",
+      "desc": "",
+      "ingredients": [],
+      "price": 20.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Blackwell 007 Jamaica",
+      "desc": "",
+      "ingredients": [
+       "Un rum dorato scuro piacevolmente profumato è caratterizzato dal calore e dalla sensualità della Giamaica."
+      ],
+      "price": 8.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Bumbu The Original",
+      "desc": "",
+      "ingredients": [
+       "Gli elaborati sentori di frutta gialla caraibica ne fanno un distillato esplorativo, da bere più volte se vuoi assicurarti di capire bene come è fatto."
+      ],
+      "price": 8.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Ocumare 3Yo",
+      "desc": "",
+      "ingredients": [
+       "Dopo 15 anni di invecchiamento in botti di Bourhon viene affinato in hotti di Pedro Ximenez, si ottiene così un rum unico ed eccezionale."
+      ],
+      "price": 8.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Bumbu Xo",
+      "desc": "",
+      "ingredients": [],
+      "price": 15.0,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Cocktail",
+  "drink": true,
+  "sections": [
+   {
+    "title": null,
+    "items": [
+     {
+      "name": "Alcolico",
+      "desc": "",
+      "ingredients": [],
+      "price": 7.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Analcolico",
+      "desc": "",
+      "ingredients": [],
+      "price": 6.0,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Componi Il Tuo Gin Tonic",
+  "drink": true,
+  "sections": [
+   {
+    "title": "Gin",
+    "items": [
+     {
+      "name": "AN DULAMAN (Irish Marittime Gin)",
+      "desc": "GRADAZIONE ALCOLICA : 43% · Cinque varietà di alghe raccolte in Donegal e sei altre sei botaniche costituiscono la base di questo gin.",
+      "ingredients": [],
+      "price": 8.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "SOX (Italian Gin)",
+      "desc": "GRADAZIONE ALCOLICA: 42% · Sox Gin è prodotto in italia grazie all'estrazione con il Soxhlet. Se ti ricorda un arnese alchemico da antichi stregoni, non hai tutti i torti.",
+      "ingredients": [],
+      "price": 10.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "LATITUDINE 45 (Italian Gin)",
+      "desc": "GRADAZIONE ALCOLICA : 45% · Al distillato di cereali si aggiunge il ginepro ed altre 10 botaniche caratteristiche dei boschi delle nostre Prealpi.",
+      "ingredients": [],
+      "price": 7.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "SILVER SPEAR (Irish Gin)",
+      "desc": "GRADAZIONE ALCOLICA : 40% · Gli ingredienti sono accuratamente selezionati. Non troppo floreale, non troppo fruttato, non troppo speziato.",
+      "ingredients": [],
+      "price": 8.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "U MAURU (Italian Gin)",
+      "desc": "GRADAZIONE ALCOLICA : 40% · U'Mauri, un' alga che delle scogliere della Sicilia ha il profumo intenso e del suo mare ha l'inconfondibile sapore.",
+      "ingredients": [],
+      "price": 10.0,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "PHD (Gin Artigianale)",
+      "desc": "GRADAZIONE ALCOLICA : 40% · Questo gin unisce il gusto del ginepro a quello avvolgente del cacao. PhD è un gin non filtrato con una produzione limitata.",
+      "ingredients": [],
+      "price": 10.0,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   },
+   {
+    "title": "Acqua Tonica Franklin",
+    "items": [
+     {
+      "name": "Natural Indian",
+      "desc": "",
+      "ingredients": [],
+      "price": null,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Olive Nere E Rosmarino",
+      "desc": "",
+      "ingredients": [],
+      "price": null,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Pompelmo Rosa E Bergamotto",
+      "desc": "",
+      "ingredients": [],
+      "price": null,
+      "image": null,
+      "allergens": []
+     },
+     {
+      "name": "Sambuco E Cetriolo",
+      "desc": "",
+      "ingredients": [],
+      "price": null,
+      "image": null,
+      "allergens": []
+     }
+    ]
+   }
+  ]
+ }
+]
