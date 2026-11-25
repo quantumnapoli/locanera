@@ -221,6 +221,11 @@ export default function PaniniShelf() {
   const openDetail = useCallback(() => {
     setDetail(true);
     apiRef.current?.setDetail(true);
+    // su mobile la scheda sale dal fondo dello scaffale: portiamo la sezione a schermo intero
+    if (window.matchMedia("(max-width: 767px)").matches) {
+      const section = document.getElementById("scaffale");
+      if (section) window.scrollTo({ top: section.getBoundingClientRect().top + window.scrollY, behavior: "smooth" });
+    }
   }, []);
 
   const closeDetail = useCallback(() => {
@@ -833,17 +838,19 @@ export default function PaniniShelf() {
           role="dialog"
           aria-modal="false"
           aria-hidden={!detail}
-          className={`absolute right-[clamp(1rem,5vw,5rem)] top-1/2 z-30 w-[min(30rem,86vw)] -translate-y-1/2 rounded-[2rem] border border-white/12 bg-black/62 p-7 backdrop-blur-2xl transition-all duration-500 md:p-9 ${
+          // mobile: pannello dal basso con scroll interno; desktop: scheda a destra
+          data-lenis-prevent
+          className={`absolute inset-x-3 bottom-3 z-30 max-h-[calc(100%-1.5rem)] overflow-y-auto overscroll-contain rounded-[1.5rem] border border-white/12 bg-black/90 p-6 pt-7 backdrop-blur-2xl transition-all duration-500 md:inset-x-auto md:bottom-auto md:right-[clamp(1rem,5vw,5rem)] md:top-1/2 md:max-h-[88%] md:w-[min(30rem,86vw)] md:-translate-y-1/2 md:rounded-[2rem] md:bg-black/62 md:p-9 ${
             detail
-              ? "pointer-events-auto translate-x-0 opacity-100"
-              : "pointer-events-none translate-x-6 opacity-0"
+              ? "pointer-events-auto translate-y-0 opacity-100 md:translate-x-0"
+              : "pointer-events-none translate-y-8 opacity-0 md:translate-x-6"
           }`}
         >
           <button
             type="button"
             onClick={closeDetail}
             aria-label="Chiudi la scheda"
-            className="absolute right-5 top-5 grid h-9 w-9 place-items-center rounded-full border border-white/16 text-white/70 transition hover:border-white hover:text-white"
+            className="sticky top-0 z-10 float-right -mr-1 -mt-3 grid h-9 w-9 place-items-center rounded-full border border-white/16 bg-black/80 text-white/70 transition hover:border-white hover:text-white md:absolute md:right-5 md:top-5 md:m-0 md:bg-transparent"
           >
             <span aria-hidden="true">✕</span>
           </button>
@@ -851,12 +858,12 @@ export default function PaniniShelf() {
           <p className="font-label text-[11px] font-semibold uppercase tracking-[0.32em] text-brand-gold">
             N° {item.volume} · {item.tag}
           </p>
-          <h3 className="mt-4 text-[clamp(2rem,4vw,3.2rem)] leading-[0.95] text-white">
+          <h3 className="mt-3 text-[clamp(2rem,4vw,3.2rem)] leading-[0.95] text-white md:mt-4">
             {item.name}
           </h3>
-          <p className="mt-5 text-base leading-relaxed text-white/62">{item.deck}</p>
+          <p className="mt-3 text-[15px] leading-relaxed text-white/62 md:mt-5 md:text-base">{item.deck}</p>
 
-          <dl className="mt-7 grid grid-cols-2 gap-x-6 gap-y-5 border-t border-white/12 pt-6">
+          <dl className="mt-5 grid grid-cols-2 gap-x-6 gap-y-4 border-t border-white/12 pt-4 md:mt-7 md:gap-y-5 md:pt-6">
             {Object.entries(item.meta).map(([label, value]) => (
               <div key={label}>
                 <dt className="text-[9px] uppercase tracking-[0.28em] text-white/40">{label}</dt>
@@ -865,7 +872,7 @@ export default function PaniniShelf() {
             ))}
           </dl>
 
-          <div className="mt-6 flex flex-wrap gap-2 border-t border-white/12 pt-6">
+          <div className="mt-4 flex flex-wrap gap-2 border-t border-white/12 pt-4 md:mt-6 md:pt-6">
             {item.ingredients.map((ingredient) => (
               <span
                 key={ingredient}
