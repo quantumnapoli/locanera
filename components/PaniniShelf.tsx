@@ -361,7 +361,7 @@ export default function PaniniShelf() {
         toneMapped: false
       });
       const plane = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), paninoMaterial);
-      plane.position.set(0, panino.height * 0.63, CARD_DEPTH / 2 + 0.34);
+      plane.position.set(0, panino.height * 0.69, CARD_DEPTH / 2 + 0.34);
       plane.userData.index = index;
       plane.userData.baseWidth = 1;
       plane.userData.baseHeight = 1;
@@ -378,7 +378,8 @@ export default function PaniniShelf() {
           paninoMaterial.needsUpdate = true;
 
           const aspect = texture.image.width / texture.image.height;
-          const height = panino.height * 0.56;
+          // panino scontornato: più grande della foto, sborda dalla scheda
+          const height = Math.min(panino.height * 0.56, 1.22 / aspect);
           plane.userData.baseWidth = height * aspect;
           plane.userData.baseHeight = height;
           plane.scale.set(height * aspect, height, 1);
@@ -644,7 +645,7 @@ export default function PaniniShelf() {
         const bobAmount = reduceMotion ? 0 : isDetail ? 0.075 : isSelected ? 0.045 : 0.022;
         const bobSpeed = isDetail ? 0.9 : 1.25;
         rig.panino.position.y =
-          rig.height * (isDetail ? 0.66 : 0.63) +
+          rig.height * (isDetail ? 0.72 : 0.69) +
           Math.sin(time * bobSpeed + rig.bob) * bobAmount;
         rig.panino.position.z = damp(
           rig.panino.position.z,
@@ -893,7 +894,7 @@ export default function PaniniShelf() {
                     alt={entry.name}
                     fill
                     sizes="(min-width: 1280px) 22vw, (min-width: 640px) 44vw, 88vw"
-                    className="object-cover"
+                    className="object-contain drop-shadow-[0_24px_24px_rgba(0,0,0,0.5)]"
                   />
                 </div>
                 <p className="mt-4 text-[10px] uppercase tracking-[0.28em]" style={{ color: entry.foil }}>

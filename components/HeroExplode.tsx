@@ -90,7 +90,7 @@ export default function HeroExplode() {
     const portrait = height > width * 1.1;
     const s = portrait ? ease(shiftRef.current) : 0;
     const scale = portrait
-      ? (height * (0.6 - 0.1 * s)) / img.naturalHeight
+      ? (height * (0.6 - 0.12 * s)) / img.naturalHeight
       : Math.max(width / img.naturalWidth, height / img.naturalHeight) * 0.9;
     const w = img.naturalWidth * scale;
     const h = img.naturalHeight * scale;
@@ -253,7 +253,7 @@ export default function HeroExplode() {
           <div className="pointer-events-none absolute inset-0" style={{ opacity: labelsIn }}>
             {LAYERS.map((l, i) => {
               // su mobile noci e pesto sono vicini: li allarghiamo un poco
-              const yMob = l.n === "02" ? l.y - 0.015 : l.n === "03" ? l.y + 0.015 : l.y;
+              const yMob = l.n === "02" ? l.y - 0.02 : l.n === "03" ? l.y + 0.02 : l.y;
               const top = rect.y + (wide ? l.y : yMob) * rect.h;
               // su mobile tutte a destra del panino, su desktop alternate
               const left = wide && l.side === "left";
@@ -273,11 +273,11 @@ export default function HeroExplode() {
                 >
                   <span className="h-px w-3 shrink-0 bg-brand-black/60 md:w-16" />
                   <span className={left ? "text-right" : ""}>
-                    <span className="block font-label text-[9px] font-bold uppercase tracking-[0.2em] text-brand-black/55 md:text-[11px] md:tracking-[0.3em]">
-                      {l.n}
-                      <span className="hidden md:inline"> · {l.note}</span>
+                    <span className="hidden font-label text-[11px] font-bold uppercase tracking-[0.3em] text-brand-black/55 md:block">
+                      {l.n} · {l.note}
                     </span>
-                    <span className="block font-display text-[13px] font-black leading-[1.1] md:text-[clamp(1.1rem,1.6vw,1.6rem)] md:leading-tight">
+                    <span className="block font-display text-[15px] font-black leading-[1.08] md:text-[clamp(1.1rem,1.6vw,1.6rem)] md:leading-tight">
+                      <span className="mr-1 font-label text-[11px] font-bold text-brand-black/55 md:hidden">{l.n}</span>
                       {l.label}
                     </span>
                   </span>
