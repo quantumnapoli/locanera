@@ -7,12 +7,17 @@ import RotatingBadge from "@/components/RotatingBadge";
 import { SITE_READY_EVENT } from "@/components/SiteLoader";
 import { SITE } from "@/lib/site";
 
-/** Numero di fotogrammi estratti dal video Higgsfield (public/explode). */
-const FRAME_COUNT = 145;
-const FRAME_PATHS = Array.from(
-  { length: FRAME_COUNT },
-  (_, i) => `/explode/f${String(i).padStart(3, "0")}.webp`
-);
+/** Fotogrammi estratti dal video Higgsfield (public/explode): 145 su desktop. */
+const TOTAL_FRAMES = 145;
+const framePath = (i: number) => `/explode/f${String(i).padStart(3, "0")}.webp`;
+/**
+ * Su mobile se ne caricano circa due terzi (97): uno ogni tre viene saltato,
+ * il primo e l'ultimo restano sempre. Il movimento resta fluido, il peso scende.
+ */
+const frameList = (mobile: boolean) =>
+  Array.from({ length: TOTAL_FRAMES }, (_, i) => i).filter(
+    (i) => !mobile || i % 3 !== 2 || i === TOTAL_FRAMES - 1
+  );
 
 /** giallo del brand, lo stesso del fondo usato per generare il video */
 const STAGE_BG = "#feda14";
@@ -45,6 +50,8 @@ export default function HeroExplode() {
   const framesRef = useRef<HTMLImageElement[]>([]);
   const frameRef = useRef(0);
   const rectRef = useRef<DrawRect>({ x: 0, y: 0, w: 0, h: 0 });
+  /** su mobile, 0 = panino al centro, 1 = spostato a sinistra per le etichette */
+  const shiftRef = useRef(0);
 
   const [progress, setProgress] = useState(0);
   const [rect, setRect] = useState<DrawRect>({ x: 0, y: 0, w: 0, h: 0 });
@@ -81,12 +88,16 @@ export default function HeroExplode() {
     // su schermi stretti il panino esploso deve stare tutto in altezza
     // (il fotogramma è trasparente: basta scalarlo sull'altezza utile)
     const portrait = height > width * 1.1;
+    const s = portrait ? ease(shiftRef.current) : 0;
     const scale = portrait
-      ? (height * 0.6) / img.naturalHeight
+      ? (height * (0.6 - 0.1 * s)) / img.naturalHeight
       : Math.max(width / img.naturalWidth, height / img.naturalHeight) * 0.9;
     const w = img.naturalWidth * scale;
     const h = img.naturalHeight * scale;
-    const x = (width - w) / 2;
+    // il panino occupa 0.32-0.66 della larghezza del fotogramma: su mobile
+    // scivola a sinistra finché il suo bordo sta a 10px, a destra le etichette
+    const centered = (width - w) / 2;
+    const x = centered + (10 - 0.32 * w - centered) * s;
     const y = (height - h) / 2 + (portrait ? -height * 0.05 : height * 0.03);
     ctx.imageSmoothingQuality = "high";
     ctx.drawImage(img, x, y, w, h);
@@ -102,7 +113,9 @@ export default function HeroExplode() {
   // --- precaricamento: il primo fotogramma subito, gli altri in coda
   useEffect(() => {
     let cancelled = false;
-    framesRef.current = FRAME_PATHS.map((src, i) => {
+    const list = frameList(window.matchMedia("(max-width: 767px)").matches);
+    framesRef.current = list.map((n, i) => {
+      const src = framePath(n);
       const img = new window.Image();
       img.decoding = "async";
       img.onload = () => {
@@ -140,10 +153,13 @@ export default function HeroExplode() {
       const travel = Math.max(wrapper.offsetHeight - window.innerHeight, 1);
       const p = clamp(-r.top / travel);
       // 0-0.12 hero fermo, 0.12-0.72 esplosione, poi resta aperto
-      const f = Math.round(ease(range(p, 0.12, 0.72)) * (FRAME_COUNT - 1));
+      const count = Math.max(framesRef.current.length, 1);
+      const f = Math.round(ease(range(p, 0.12, 0.72)) * (count - 1));
+      const shift = range(p, 0.56, 0.66);
       setProgress((c) => (Math.abs(c - p) < 0.001 ? c : p));
-      if (f !== frameRef.current) {
+      if (f !== frameRef.current || Math.abs(shift - shiftRef.current) > 0.002) {
         frameRef.current = f;
+        shiftRef.current = shift;
         paint(f);
       }
     };
@@ -234,30 +250,34 @@ export default function HeroExplode() {
           </div>
 
           {/* etichette degli ingredienti */}
-          <div className="pointer-events-none absolute inset-0 hidden md:block" style={{ opacity: labelsIn * (1 - outroIn) }}>
+          <div className="pointer-events-none absolute inset-0" style={{ opacity: labelsIn }}>
             {LAYERS.map((l, i) => {
-              const top = rect.y + l.y * rect.h;
-              const left = l.side === "left";
-              const edge = left ? rect.x + 0.31 * rect.w : rect.x + 0.67 * rect.w;
+              // su mobile noci e pesto sono vicini: li allarghiamo un poco
+              const yMob = l.n === "02" ? l.y - 0.015 : l.n === "03" ? l.y + 0.015 : l.y;
+              const top = rect.y + (wide ? l.y : yMob) * rect.h;
+              // su mobile tutte a destra del panino, su desktop alternate
+              const left = wide && l.side === "left";
+              const edge = left ? rect.x + 0.31 * rect.w : rect.x + (wide ? 0.67 : 0.665) * rect.w;
               const delay = i * 0.06;
               const local = clamp((labelsIn - delay) / (1 - delay || 1));
               return (
                 <div
                   key={l.n}
-                  className={`absolute flex items-center gap-4 ${left ? "flex-row-reverse" : ""}`}
+                  className={`absolute flex items-center gap-2 md:gap-4 ${left ? "flex-row-reverse" : ""}`}
                   style={{
                     top,
-                    ...(left ? { right: `calc(100% - ${edge}px)` } : { left: edge }),
+                    ...(left ? { right: `calc(100% - ${edge}px)` } : { left: edge, maxWidth: wide ? undefined : `calc(100vw - ${edge}px - 8px)` }),
                     transform: `translateY(-50%) translateX(${(1 - local) * (left ? -24 : 24)}px)`,
                     opacity: local
                   }}
                 >
-                  <span className="h-px w-16 bg-brand-black/60" />
+                  <span className="h-px w-3 shrink-0 bg-brand-black/60 md:w-16" />
                   <span className={left ? "text-right" : ""}>
-                    <span className="block font-label text-[11px] font-bold uppercase tracking-[0.3em] text-brand-black/55">
-                      {l.n} · {l.note}
+                    <span className="block font-label text-[9px] font-bold uppercase tracking-[0.2em] text-brand-black/55 md:text-[11px] md:tracking-[0.3em]">
+                      {l.n}
+                      <span className="hidden md:inline"> · {l.note}</span>
                     </span>
-                    <span className="block font-display text-[clamp(1.1rem,1.6vw,1.6rem)] font-black leading-tight">
+                    <span className="block font-display text-[13px] font-black leading-[1.1] md:text-[clamp(1.1rem,1.6vw,1.6rem)] md:leading-tight">
                       {l.label}
                     </span>
                   </span>
@@ -325,10 +345,10 @@ export default function HeroExplode() {
 
           {/* chiusura */}
           <div
-            className="section-shell absolute inset-x-0 bottom-0 z-10 flex flex-col items-start justify-between gap-6 pb-8 md:flex-row md:items-end md:pb-10"
+            className="section-shell absolute inset-x-0 bottom-0 z-10 flex flex-col items-start gap-4 pb-8 md:top-28 md:bottom-auto md:items-end md:pb-0 md:text-right"
             style={{ opacity: outroIn, transform: `translateY(${(1 - outroIn) * 30}px)`, pointerEvents: outroIn > 0.5 ? "auto" : "none" }}
           >
-            <p className="max-w-md font-display text-[clamp(1.5rem,2.6vw,2.4rem)] font-black leading-[1.05]">
+            <p className="max-w-[17rem] font-display text-[clamp(1.25rem,2vw,2rem)] font-black leading-[1.05] md:max-w-xs">
               Sette strati, zero scorciatoie. Si mangia solo al Vomero.
             </p>
             <Link
